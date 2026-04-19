@@ -1,0 +1,51 @@
+cihaz_id,udi_kodu,isim,kategori,risk_sinifi,durum,kayit_tarihi
+CIH-001,(01)044463998825047(21)SN-IP-001,Fresenius Kabi Agilia SP,Infusion Pump,IIb,Active,2019-04-02
+CIH-002,(01)022234409190452(21)SN-IP-002,B.Braun Infusomat Space,Infusion Pump,IIb,Active,2020-07-03
+CIH-003,(01)014192024586483(21)SN-IP-003,Baxter Sigma Spectrum,Infusion Pump,IIb,Active,2022-09-25
+CIH-004,(01)042741474740363(21)SN-IP-004,ICU Medical Plum 360,Infusion Pump,IIb,Active,2019-01-19
+CIH-005,(01)013734912230980(21)SN-IP-005,BD Alaris PK,Infusion Pump,IIb,Active,2023-09-01
+CIH-006,(01)086693948205196(21)SN-IP-006,Moog Curlin 4000,Infusion Pump,IIb,Active,2020-03-25
+CIH-007,(01)073218570415072(21)SN-IP-007,Smiths Medical CADD-Solis,Infusion Pump,IIb,Active,2022-09-15
+CIH-008,(01)032470434892733(21)SN-IP-008,Micrel Rythmic Evolution,Infusion Pump,IIb,Under Review,2021-02-13
+CIH-009,(01)049107138594934(21)SN-IP-009,Zyno Medical Z-500,Infusion Pump,IIb,Inactive,2022-09-28
+CIH-010,(01)057372473489902(21)SN-IP-010,Mindray BeneFusion n Series,Infusion Pump,IIb,Inactive,2019-09-29
+CIH-011,(01)063468446208273(21)SN-DF-001,Zoll AED Plus,Defibrillator,III,Active,2019-02-23
+CIH-012,(01)094964520328049(21)SN-DF-002,Philips HeartStart FRx,Defibrillator,III,Active,2019-02-01
+CIH-013,(01)016115205051775(21)SN-DF-003,Stryker LIFEPAK 15,Defibrillator,III,Active,2020-12-19
+CIH-014,(01)027568719322757(21)SN-DF-004,Zoll R Series,Defibrillator,III,Active,2023-02-25
+CIH-015,(01)087692001861608(21)SN-DF-005,Cardiac Science Powerheart G5,Defibrillator,III,Active,2022-03-31
+CIH-016,(01)098475593596210(21)SN-DF-006,Nihon Kohden TEC-8300,Defibrillator,III,Active,2021-04-15
+CIH-017,(01)037060773673407(21)SN-DF-007,Schiller DEFIGARD 5000,Defibrillator,III,Active,2022-01-21
+CIH-018,(01)063494251469520(21)SN-DF-008,Stryker LIFEPAK 1000,Defibrillator,III,Under Review,2018-10-12
+CIH-019,(01)099466116158099(21)SN-DF-009,Philips HeartStart MRx,Defibrillator,III,Inactive,2021-02-12
+CIH-020,(01)062098651894505(21)SN-DF-010,GE Responder 3000,Defibrillator,III,Inactive,2022-02-03
+CIH-021,(01)020048711796139(21)SN-PM-001,Draeger Delta XL,Patient Monitor,IIb,Active,2021-12-26
+CIH-022,(01)032996306357707(21)SN-PM-002,Nihon Kohden BSM-3500,Patient Monitor,IIb,Active,2019-12-02
+CIH-023,(01)047990615481847(21)SN-PM-003,Philips IntelliVue MX450,Patient Monitor,IIb,Active,2023-03-09
+CIH-024,(01)055641262883119(21)SN-PM-004,GE Carescape B650,Patient Monitor,IIb,Active,2020-06-18
+CIH-025,(01)066458699966460(21)SN-PM-005,Mindray BeneVision N17,Patient Monitor,IIb,Active,2018-08-18
+CIH-026,(01)039691393195137(21)SN-PM-006,Spacelabs Qube,Patient Monitor,IIb,Active,2021-01-01
+CIH-027,(01)065682100207281(21)SN-PM-007,Schiller Argus Pro,Patient Monitor,IIb,Active,2021-07-12
+CIH-028,(01)047276634790787(21)SN-PM-008,Bionet BM5,Patient Monitor,IIb,Under Review,2023-02-23
+CIH-029,(01)085855828472443(21)SN-PM-009,Edan iM80,Patient Monitor,IIb,Inactive,2019-07-26
+CIH-030,(01)092273306954758(21)SN-PM-010,Stryker Berthold PM,Patient Monitor,IIb,Inactive,2020-12-12
+CIH-031,(01)092127925786741(21)SN-OI-001,Zimmer Biomet NexGen Knee,Orthopedic Implant,III,Active,2022-10-21
+CIH-032,(01)040865189751959(21)SN-OI-002,DePuy Synthes Pinnacle Hip,Orthopedic Implant,III,Active,2022-06-24
+CIH-033,(01)079456104542376(21)SN-OI-003,Stryker Tritanium PL Cage,Orthopedic Implant,III,Active,2019-07-21
+CIH-034,(01)016630380597386(21)SN-OI-004,Smith+Nephew LEGION Knee,Orthopedic Implant,III,Active,2019-01-08
+CIH-035,(01)098305184054239(21)SN-OI-005,Exactech Connexion GXL Hip,Orthopedic Implant,III,Active,2019-03-26
+CIH-036,(01)093938359028968(21)SN-OI-006,MicroPort Evolution Hip,Orthopedic Implant,III,Active,2019-10-18
+CIH-037,(01)063705923632197(21)SN-OI-007,Globus Medical COALITION,Orthopedic Implant,III,Active,2018-09-18
+CIH-038,(01)045384213113257(21)SN-OI-008,NuVasive Reline Spinal,Orthopedic Implant,III,Under Review,2023-04-02
+CIH-039,(01)085573749710589(21)SN-OI-009,SeaSpine NorthStar OCT,Orthopedic Implant,III,Inactive,2018-02-17
+CIH-040,(01)025699566509423(21)SN-OI-010,Arthrex SwiveLock,Orthopedic Implant,III,Inactive,2020-12-28
+CIH-041,(01)032258387830426(21)SN-GM-001,Abbott FreeStyle Libre 2,Glucose Meter,IIa,Active,2021-04-17
+CIH-042,(01)047068658769419(21)SN-GM-002,Roche Accu-Chek Guide,Glucose Meter,IIa,Active,2023-02-02
+CIH-043,(01)035146011153518(21)SN-GM-003,Medtronic Guardian 4,Glucose Meter,IIa,Active,2023-08-13
+CIH-044,(01)024976175700591(21)SN-GM-004,Dexcom G6 CGM System,Glucose Meter,IIa,Active,2023-09-11
+CIH-045,(01)099927345218679(21)SN-GM-005,Ascensia CONTOUR NEXT,Glucose Meter,IIa,Active,2021-05-07
+CIH-046,(01)037992917375175(21)SN-GM-006,Lifescan OneTouch Ultra 2,Glucose Meter,IIa,Active,2023-09-11
+CIH-047,(01)085909945837333(21)SN-GM-007,i-SENS CareSens N,Glucose Meter,IIa,Active,2019-09-19
+CIH-048,(01)010081254310877(21)SN-GM-008,Arkray Glucocard Vital,Glucose Meter,IIa,Under Review,2023-12-13
+CIH-049,(01)012742287680389(21)SN-GM-009,Bayer Breeze2,Glucose Meter,IIa,Inactive,2021-08-20
+CIH-050,(01)061088331466801(21)SN-GM-010,Prodigy AutoCode,Glucose Meter,IIa,Inactive,2019-04-04

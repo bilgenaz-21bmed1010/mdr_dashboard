@@ -1,0 +1,31 @@
+olay_id,cihaz_id,cihaz_adi,kategori,ciddiyet,deadline_gun,olay_tarihi,deadline,durum,raporlayan,aciklama
+OLY-001,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Serious (Public Health Threat),10,2026-03-24,2026-04-03,Overdue,Hem. Murat Demir,Enerji iletimi sırasında hatalı doz uygulandı; hasta başka ekiple stabilize edildi.
+OLY-002,CIH-023,Philips IntelliVue MX450,Patient Monitor,Serious (Public Health Threat),10,2026-04-06,2026-04-16,Overdue,Dr. Selin Arslan,"Alarm sesi çalışmadı; bradikardi sessiz kaldı, klinisyen manuel tespit etti."
+OLY-003,CIH-032,DePuy Synthes Pinnacle Hip,Orthopedic Implant,Serious (Public Health Threat),10,2026-04-10,2026-04-20,Open,Biyomed. Müh. Can Öztürk,İmplant yüzeyinde korozyon; serbestleşme ve lokal doku reaksiyonu saptandı.
+OLY-004,CIH-046,Lifescan OneTouch Ultra 2,Glucose Meter,Serious (Public Health Threat),10,2026-04-15,2026-04-25,Open,Dr. Fatma Yıldız,Sensör yapıştırıcı ciltten ayrıldı; ölçüm kesintiye uğradı.
+OLY-005,CIH-002,B.Braun Infusomat Space,Infusion Pump,Serious (Public Health Threat),10,2026-04-17,2026-04-27,Open,Hem. Ali Çelik,Flow rate sensörü hatalı okuma yaptı; gerçek iletim planlanandan %30 düşük kaldı.
+OLY-006,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Serious (Public Health Threat),10,2026-03-31,2026-04-10,Overdue,Dr. Ayşe Kaya,Şarj döngüsü tamamlanamadı; cihaz boşalmadı – kardiyak arrest senaryosu.
+OLY-007,CIH-028,Bionet BM5,Patient Monitor,Serious (Public Health Threat),10,2026-04-03,2026-04-13,Overdue,Hem. Murat Demir,SpO2 sensörü yanlış okuma yaptı; oksijen tedavisi gecikmeli başlatıldı.
+OLY-008,CIH-031,Zimmer Biomet NexGen Knee,Orthopedic Implant,Serious (Public Health Threat),10,2026-04-13,2026-04-23,Closed,Dr. Selin Arslan,Spinal kafes subsidansı gözlemlendi; ek füzyon prosedürü planlandı.
+OLY-009,CIH-047,i-SENS CareSens N,Glucose Meter,Serious (Public Health Threat),10,2026-04-16,2026-04-26,Open,Biyomed. Müh. Can Öztürk,Kalibrasyon hatası; alarm eşiği aşılmasına rağmen uyarı tetiklenmedi.
+OLY-010,CIH-004,ICU Medical Plum 360,Infusion Pump,Serious (Public Health Threat),10,2026-04-18,2026-04-28,Open,Dr. Fatma Yıldız,Yazılım donması nedeniyle infüzyon 45 dakika kesintiye uğradı.
+OLY-011,CIH-015,Cardiac Science Powerheart G5,Defibrillator,Serious (Death/Unanticipated),15,2026-03-19,2026-04-03,Overdue,Hem. Ali Çelik,Ekran dondu; nabız analizi sonucu görüntülenemedi.
+OLY-012,CIH-028,Bionet BM5,Patient Monitor,Serious (Death/Unanticipated),15,2026-03-29,2026-04-13,Overdue,Dr. Ayşe Kaya,Anestezi sırasında ECG sinyali kayboldu; yedek monitörle ameliyata devam edildi.
+OLY-013,CIH-037,Globus Medical COALITION,Orthopedic Implant,Serious (Death/Unanticipated),15,2026-04-04,2026-04-19,Closed,Hem. Murat Demir,Asetabular bileşen destek kaybı; hastada ağrı ve yürüme zorluğu rapor edildi.
+OLY-014,CIH-046,Lifescan OneTouch Ultra 2,Glucose Meter,Serious (Death/Unanticipated),15,2026-04-08,2026-04-23,Open,Dr. Selin Arslan,Transmitter sinyal kaybı; CGM sistemi 3 saat veri iletmedi.
+OLY-015,CIH-003,Baxter Sigma Spectrum,Infusion Pump,Serious (Death/Unanticipated),15,2026-04-13,2026-04-28,Closed,Biyomed. Müh. Can Öztürk,Occlusion alarmı tetiklenmedi; oklüzyon manuel tespit edildi.
+OLY-016,CIH-017,Schiller DEFIGARD 5000,Defibrillator,Serious (Death/Unanticipated),15,2026-03-24,2026-04-08,Overdue,Dr. Fatma Yıldız,Cihaz kendi kendine kapandı; kullanıcı yeniden başlatarak işleme devam etti.
+OLY-017,CIH-028,Bionet BM5,Patient Monitor,Serious (Death/Unanticipated),15,2026-04-01,2026-04-16,Overdue,Hem. Ali Çelik,NIBP modülü sürekli hata verdi; manuel tansiyon ölçümüne geçildi.
+OLY-018,CIH-035,Exactech Connexion GXL Hip,Orthopedic Implant,Serious (Death/Unanticipated),15,2026-04-06,2026-04-21,Open,Dr. Ayşe Kaya,İmplant bağlantı noktasında kırık tespit edildi; revizyon ameliyatı gerekti.
+OLY-019,CIH-045,Ascensia CONTOUR NEXT,Glucose Meter,Serious (Death/Unanticipated),15,2026-04-11,2026-04-26,Open,Hem. Murat Demir,Cihaz geçersiz okuma verdi; hasta yeniden test için sağlık kuruluşuna başvurdu.
+OLY-020,CIH-001,Fresenius Kabi Agilia SP,Infusion Pump,Serious (Death/Unanticipated),15,2026-04-16,2026-05-01,Closed,Dr. Selin Arslan,Şarj kablosu aşırı ısındı; pompa kapatıldı ve yedek cihaz devreye alındı.
+OLY-021,CIH-013,Stryker LIFEPAK 15,Defibrillator,Serious (Anticipated Deterioration),30,2026-03-04,2026-04-03,Overdue,Biyomed. Müh. Can Öztürk,"Elektrot yapışkanlık sorunu; impedans uyarısı alındı, şok iletilemedi."
+OLY-022,CIH-023,Philips IntelliVue MX450,Patient Monitor,Serious (Anticipated Deterioration),30,2026-03-14,2026-04-13,Overdue,Dr. Fatma Yıldız,Kablosuz bağlantı kesildi; santral izleme sistemine veri iletimi durdu.
+OLY-023,CIH-036,MicroPort Evolution Hip,Orthopedic Implant,Serious (Anticipated Deterioration),30,2026-03-21,2026-04-20,Open,Hem. Ali Çelik,Diz protezi bileşen ayrışması; hasta düşme riski yaşadı.
+OLY-024,CIH-045,Ascensia CONTOUR NEXT,Glucose Meter,Serious (Anticipated Deterioration),30,2026-03-29,2026-04-28,Open,Dr. Ayşe Kaya,Sensör imprecision (±30 mg/dL sapma); hatalı insülin dozu hesaplandı.
+OLY-025,CIH-007,Smiths Medical CADD-Solis,Infusion Pump,Serious (Anticipated Deterioration),30,2026-04-03,2026-05-03,Open,Hem. Murat Demir,Yanlış doz iletildi; pompa ekranında hata kodu görüntülendi.
+OLY-026,CIH-013,Stryker LIFEPAK 15,Defibrillator,Serious (Anticipated Deterioration),30,2026-03-09,2026-04-08,Overdue,Dr. Selin Arslan,Pil göstergesi tam şarjı yanlış raporladı; acil müdahalede cihaz çalışmadı.
+OLY-027,CIH-022,Nihon Kohden BSM-3500,Patient Monitor,Serious (Anticipated Deterioration),30,2026-03-17,2026-04-16,Overdue,Biyomed. Müh. Can Öztürk,Monitör yeniden başlatma sırasında hasta verilerini kaybetti.
+OLY-028,CIH-036,MicroPort Evolution Hip,Orthopedic Implant,Serious (Anticipated Deterioration),30,2026-03-24,2026-04-23,Open,Dr. Fatma Yıldız,"Vida kırılması; nörolojik semptomlar ortaya çıktı, acil müdahale yapıldı."
+OLY-029,CIH-046,Lifescan OneTouch Ultra 2,Glucose Meter,Serious (Anticipated Deterioration),30,2026-03-31,2026-04-30,Open,Hem. Ali Çelik,Uygulama-cihaz Bluetooth bağlantısı kesildi; hasta kritik düşük glukoz alarmını kaçırdı.
+OLY-030,CIH-007,Smiths Medical CADD-Solis,Infusion Pump,Serious (Anticipated Deterioration),30,2026-04-08,2026-05-08,Open,Dr. Ayşe Kaya,Pompa alarm vermeksizin infüzyonu durdurdu; hasta bakım ekibi müdahale etti.
