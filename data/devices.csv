@@ -49,3 +49,303 @@ CIH-047,(01)085909945837333(21)SN-GM-007,i-SENS CareSens N,Glucose Meter,IIa,Act
 CIH-048,(01)010081254310877(21)SN-GM-008,Arkray Glucocard Vital,Glucose Meter,IIa,Under Review,2023-12-13
 CIH-049,(01)012742287680389(21)SN-GM-009,Bayer Breeze2,Glucose Meter,IIa,Inactive,2021-08-20
 CIH-050,(01)061088331466801(21)SN-GM-010,Prodigy AutoCode,Glucose Meter,IIa,Inactive,2019-04-04
+VEN-001,(01)0000000000001(21)SN-VE-001,Maquet Servo-U Ventilator,Ventilator,III,Active,2021-02-15
+VEN-002,(01)0000000000002(21)SN-VE-002,Nihon Kohden NKV-550,Ventilator,III,Active,2022-03-15
+VEN-003,(01)0000000000003(21)SN-VE-003,Puritan Bennett 980,Ventilator,III,Active,2023-04-15
+VEN-004,(01)0000000000004(21)SN-VE-004,Breas Vivo 45 LS,Ventilator,III,Active,2020-05-15
+VEN-005,(01)0000000000005(21)SN-VE-005,Draeger Savina 300,Ventilator,III,Active,2021-06-15
+VEN-006,(01)0000000000006(21)SN-VE-006,Hamilton-T1,Ventilator,III,Active,2022-07-15
+VEN-007,(01)0000000000007(21)SN-VE-007,Philips Trilogy Evo,Ventilator,III,Active,2023-08-15
+VEN-008,(01)0000000000008(21)SN-VE-008,ResMed Astral 150,Ventilator,III,Active,2020-09-15
+VEN-009,(01)0000000000009(21)SN-VE-009,Hamilton-C6,Ventilator,III,Active,2021-01-15
+VEN-010,(01)0000000000010(21)SN-VE-010,Draeger Atlan A300,Ventilator,III,Active,2022-02-15
+CIH-051,(01)069635551657644(21)SN-0051,Thoratec Heartmate 3 Lvas,CT Scanner,IIb,Active,2023-05-01
+CIH-052,(01)048973202406734(21)SN-0052,Stealthstation S8 Em Ent System,CT Scanner,IIb,Active,2021-04-07
+CIH-053,(01)091847805443000(21)SN-0053,Somatom Go.Top,CT Scanner,IIb,Recalled,2025-04-01
+CIH-054,(01)049921344546682(21)SN-0054,Cardiohelp,CT Scanner,IIb,Active,2023-07-23
+CIH-055,(01)060837972297932(21)SN-0055,Clave® Connector,CT Scanner,IIb,Active,2019-10-10
+CIH-056,(01)081429878449115(21)SN-0056,Bd Maxzero Extension Set,CT Scanner,IIb,Active,2022-12-06
+CIH-057,(01)055932384263662(21)SN-0057,Lightspeed Pro 100,CT Scanner,IIb,Active,2019-04-17
+CIH-058,(01)016942484285190(21)SN-0058,Stealthstation S7 System,CT Scanner,IIb,Under Review,2018-12-01
+CIH-059,(01)075096584798484(21)SN-0059,Ge Lightspeed Vt Scan Installed In 2006,CT Scanner,IIb,Active,2025-07-26
+CIH-060,(01)099264507907562(21)SN-0060,Neuviz 64 In,CT Scanner,IIb,Active,2024-06-30
+CIH-061,(01)094453492092332(21)SN-0061,Medtronic Transcatheter Valve,Cardiac Valve Prosthesis,III,Active,2025-05-23
+CIH-062,(01)048971360207276(21)SN-0062,Carpentier-Edwards Perimount Aortic Pericardial Bi,Cardiac Valve Prosthesis,III,Active,2018-01-29
+CIH-063,(01)062288996568644(21)SN-0063,Edwards Sapien 3 Transcatheter Heart Valve,Cardiac Valve Prosthesis,III,Active,2024-11-12
+CIH-064,(01)011993084132393(21)SN-0064,Perceval Sutureless Aortic Heart Valve,Cardiac Valve Prosthesis,III,Active,2018-08-11
+CIH-065,(01)036602479556775(21)SN-0065,Tavi 26Mm Medtronic Pro+ Valve,Cardiac Valve Prosthesis,III,Active,2020-09-12
+CIH-066,(01)076599933354768(21)SN-0066,Trifecta¿ Gt Valve,Cardiac Valve Prosthesis,III,Inactive,2023-08-27
+CIH-067,(01)011936577008599(21)SN-0067,On-X Prosthetic Aortic Heart Valve,Cardiac Valve Prosthesis,III,Active,2019-04-13
+CIH-068,(01)095303975391152(21)SN-0068,Impella Cp,Cardiac Valve Prosthesis,III,Under Review,2023-08-21
+CIH-069,(01)015334326320480(21)SN-0069,Epic Stented Tissue Valve,Cardiac Valve Prosthesis,III,Active,2024-05-28
+CIH-070,(01)020082039394868(21)SN-0070,Perceval Plus Sutureless Aortic Heart Valve,Cardiac Valve Prosthesis,III,Active,2018-12-08
+CIH-071,(01)084843562348918(21)SN-0071,Surescan,MRI System,IIb,Under Review,2025-09-26
+CIH-072,(01)027865763861956(21)SN-0072,Mri Machine,MRI System,IIb,Inactive,2023-02-21
+CIH-073,(01)088501520596201(21)SN-0073,Ingevity Mri,MRI System,IIb,Under Review,2023-09-26
+CIH-074,(01)057940920675667(21)SN-0074,Assurity Mri,MRI System,IIb,Under Review,2020-04-20
+CIH-075,(01)026198717997230(21)SN-0075,Nalu Neurostimulation System,MRI System,IIb,Under Review,2022-09-21
+CIH-076,(01)062349771744773(21)SN-0076,Expression Mri Patient Monitoring System (Model 86,MRI System,IIb,Under Review,2018-01-11
+CIH-077,(01)047829042073837(21)SN-0077,"Strata Unitized Shunt, Regular",MRI System,IIb,Recalled,2019-09-02
+CIH-078,(01)088762160700854(21)SN-0078,Mri,MRI System,IIb,Under Review,2020-03-02
+CIH-079,(01)071422438157801(21)SN-0079,Temperature-Sensing Foley Catheter,MRI System,IIb,Inactive,2025-09-04
+CIH-080,(01)017137210489245(21)SN-0080,Iradimed 3880 Mri Basic Monitor System,MRI System,IIb,Under Review,2020-07-31
+CIH-081,(01)046510817904197(21)SN-0081,Nucleus 24 Channel Cochlear Implant System,Cochlear Implant,III,Under Review,2021-03-11
+CIH-082,(01)087762118621362(21)SN-0082,Nucleus Ci512 Cochlear Implant With Contour Advanc,Cochlear Implant,III,Under Review,2023-07-09
+CIH-083,(01)088659839584811(21)SN-0083,Nucleus 24 Channel Cochlear Implant System C,Cochlear Implant,III,Active,2023-12-11
+CIH-084,(01)027414103194972(21)SN-0084,Ba210 Abutment 5.5Mm For Flange Fixture,Cochlear Implant,III,Inactive,2021-06-08
+CIH-085,(01)043867301563172(21)SN-0085,N6 Hybrid,Cochlear Implant,III,Inactive,2024-12-27
+CIH-086,(01)011091192744593(21)SN-0086,Med-El Maestro Cochlear Implant System,Cochlear Implant,III,Active,2025-06-02
+CIH-087,(01)045499884390991(21)SN-0087,Cochlear Nucleus Implants,Cochlear Implant,III,Inactive,2018-10-23
+CIH-088,(01)076137251036256(21)SN-0088,Nucleus 24 Channel Cochlear Implant System.,Cochlear Implant,III,Inactive,2024-01-10
+CIH-089,(01)074374829247271(21)SN-0089,Cochlear Implant,Cochlear Implant,III,Under Review,2018-11-19
+CIH-090,(01)046150666583377(21)SN-0090,Advanced Bionics Hi Res 90K Advantage,Cochlear Implant,III,Under Review,2021-08-24
+CIH-091,(01)057750740517360(21)SN-0091,Activ.A.C.¿ Ion Progress¿ Remote Therapy Monitorin,Pulse Oximeter,IIa,Inactive,2019-04-30
+CIH-092,(01)043813674964757(21)SN-0092,"Reliavac 400 Evacuator, 400Ml Capacity, Y-Connecti",Pulse Oximeter,IIa,Active,2019-01-21
+CIH-093,(01)030082576168850(21)SN-0093,"Cws 400 Closed Wound Suction Kit, Pvc Drain, 12.5I",Pulse Oximeter,IIa,Inactive,2024-02-03
+CIH-094,(01)071566930686198(21)SN-0094,Activ.A.C.¿ Therapy System With Ion Progress¿ Remo,Pulse Oximeter,IIa,Active,2019-02-07
+CIH-095,(01)026916534592116(21)SN-0095,Interstim Ii,Pulse Oximeter,IIa,Inactive,2023-12-21
+CIH-096,(01)044285327058141(21)SN-0096,Wound Vac Therapy System,Pulse Oximeter,IIa,Active,2019-08-05
+CIH-097,(01)086813181696695(21)SN-0097,Lifevest Wcd 4000 System,Pulse Oximeter,IIa,Inactive,2018-07-07
+CIH-098,(01)094922604520337(21)SN-0098,V.A.C.® Granufoam¿ Dressing,Pulse Oximeter,IIa,Active,2022-05-28
+CIH-099,(01)045682794206425(21)SN-0099,Heartmate 3 Left Ventricular Assist System,Pulse Oximeter,IIa,Under Review,2019-12-11
+CIH-100,(01)085499915607356(21)SN-0100,Aqua K Pad,Pulse Oximeter,IIa,Active,2020-09-16
+CIH-101,(01)051915150907314(21)SN-0101,Fingertip Pulse Oximeter,Wound Care System,IIa,Under Review,2020-03-01
+CIH-102,(01)028944412926533(21)SN-0102,Nellcor,Wound Care System,IIa,Inactive,2018-03-15
+CIH-103,(01)088044354432544(21)SN-0103,Stryker Max N Pulse Oximeter Sensor,Wound Care System,IIa,Active,2019-11-01
+CIH-104,(01)028145497725075(21)SN-0104,Wound Care System Device 4,Wound Care System,IIa,Active,2020-04-18
+CIH-105,(01)054490917711040(21)SN-0105,Pulse Oximeter,Wound Care System,IIa,Active,2021-05-29
+CIH-106,(01)086520389152557(21)SN-0106,Nellcor F,Wound Care System,IIa,Active,2025-12-23
+CIH-107,(01)037804369325199(21)SN-0107,Nellcor G,Wound Care System,IIa,Active,2023-07-17
+CIH-108,(01)021204311338943(21)SN-0108,Pulse Oximeter H,Wound Care System,IIa,Active,2025-05-29
+CIH-109,(01)017438111003134(21)SN-0109,Infant 02 Transducer,Wound Care System,IIa,Active,2023-05-14
+CIH-110,(01)017417969860790(21)SN-0110,Rd Set Neonate,Wound Care System,IIa,Active,2019-03-01
+CIH-111,(01)033182296304310(21)SN-0111,Azurion,X-Ray System,IIa,Active,2024-07-26
+CIH-112,(01)061075708978036(21)SN-0112,Axiom Artis Dfc,X-Ray System,IIa,Recalled,2019-08-15
+CIH-113,(01)064133943163666(21)SN-0113,Giraffe Warmer,X-Ray System,IIa,Active,2025-09-13
+CIH-114,(01)056394183520442(21)SN-0114,Artis Zee Biplane,X-Ray System,IIa,Active,2019-05-09
+CIH-115,(01)080745522991589(21)SN-0115,9800,X-Ray System,IIa,Active,2022-10-31
+CIH-116,(01)097156824603841(21)SN-0116,O-Arm O2 Imaging System,X-Ray System,IIa,Active,2023-12-11
+CIH-117,(01)032720629730654(21)SN-0117,Navio Surgical System Us,X-Ray System,IIa,Inactive,2020-08-27
+CIH-118,(01)070630416436555(21)SN-0118,Hut Ext Dr Final Assy-Standard,X-Ray System,IIa,Active,2018-07-22
+CIH-119,(01)082179905531748(21)SN-0119,Azurion 7 B20,X-Ray System,IIa,Recalled,2023-08-25
+CIH-120,(01)032807077201687(21)SN-0120,Artis Zee Floor,X-Ray System,IIa,Under Review,2019-03-03
+CIH-121,(01)030724532324488(21)SN-0121,Spinal-Cord Stimulator,Spinal Implant,IIb,Inactive,2019-06-27
+CIH-122,(01)021974548830258(21)SN-0122,Wavewriter Alpha 16,Spinal Implant,IIb,Recalled,2020-11-02
+CIH-123,(01)026528065285351(21)SN-0123,"Stimulator, Spinal-Cord, Implanted (Pain Relief)",Spinal Implant,IIb,Active,2023-04-21
+CIH-124,(01)024997224608806(21)SN-0124,Implantable Neurostimulator,Spinal Implant,IIb,Active,2018-11-06
+CIH-125,(01)029327994366998(21)SN-0125,Boston Scientific Spinal Cord Stimulator,Spinal Implant,IIb,Inactive,2021-12-20
+CIH-126,(01)045639450913640(21)SN-0126,"Stimulator, Spinal-Cord, Totally Implanted For Pai",Spinal Implant,IIb,Under Review,2018-11-05
+CIH-127,(01)055351882511040(21)SN-0127,Nevro Spinal Cord Stimulator,Spinal Implant,IIb,Inactive,2020-01-21
+CIH-128,(01)027299132014877(21)SN-0128,Boston Scientific Spinal Cord System,Spinal Implant,IIb,Recalled,2021-08-19
+CIH-129,(01)014610875088993(21)SN-0129,"Orthosis,Pedicle Spinal Fixation",Spinal Implant,IIb,Inactive,2020-12-28
+CIH-130,(01)063210250687234(21)SN-0130,"Stimulator, Spinal-Cord, Totally Implanted For Pai J",Spinal Implant,IIb,Inactive,2022-05-11
+CIH-131,(01)069539281043429(21)SN-0131,Optiflux 160Nre Dialyzer Finished Assy.,Hemodialysis Machine,IIb,Active,2023-08-29
+CIH-132,(01)010154635196250(21)SN-0132,2008K Hemodialysis Machine,Hemodialysis Machine,IIb,Active,2021-02-23
+CIH-133,(01)068184107722404(21)SN-0133,2008T Hd Sys. Cdx W/Bibag Blue Star,Hemodialysis Machine,IIb,Active,2023-12-15
+CIH-134,(01)064367330934204(21)SN-0134,Fmc Bloodline,Hemodialysis Machine,IIb,Active,2023-05-07
+CIH-135,(01)022485034108180(21)SN-0135,Tablo Hemodialysis System,Hemodialysis Machine,IIb,Active,2025-10-11
+CIH-136,(01)020327901506682(21)SN-0136,Naturalyte Dry Pack Rx-12,Hemodialysis Machine,IIb,Recalled,2018-08-20
+CIH-137,(01)090969344527790(21)SN-0137,Collective Concentrate- Acid,Hemodialysis Machine,IIb,Under Review,2022-07-19
+CIH-138,(01)057733923225727(21)SN-0138,"Wingeater A.V.Fistula 15Gx1"" Be 30Cm W/Clamp",Hemodialysis Machine,IIb,Under Review,2025-10-13
+CIH-139,(01)027844906197004(21)SN-0139,Split Cath® Iii,Hemodialysis Machine,IIb,Active,2023-06-17
+CIH-140,(01)095719758848048(21)SN-0140,Baxter Ak98 Hemodialysis Macine,Hemodialysis Machine,IIb,Active,2025-08-22
+CIH-141,(01)012227142719446(21)SN-0141,640G Insulin Pump Mmt-1711K,Insulin Pump,IIb,Inactive,2022-01-18
+CIH-142,(01)012704149393108(21)SN-0142,Paradigm Real-Time Insulin Infusion Pump,Insulin Pump,IIb,Recalled,2024-02-23
+CIH-143,(01)023219599474903(21)SN-0143,640G Insulin Pump,Insulin Pump,IIb,Active,2025-12-05
+CIH-144,(01)064431962590316(21)SN-0144,Pump Mmt-1714K 630G Black Mmol Canada,Insulin Pump,IIb,Inactive,2025-11-27
+CIH-145,(01)095294403610406(21)SN-0145,640G Insulin Pump Mmt-1712B,Insulin Pump,IIb,Active,2019-10-14
+CIH-146,(01)044035260828121(21)SN-0146,Paradigm Real-Time Insulin Infusion Pump F,Insulin Pump,IIb,Inactive,2025-10-15
+CIH-147,(01)021141979133989(21)SN-0147,Paradigm Real-Time Insulin Infusion Pump G,Insulin Pump,IIb,Inactive,2023-12-29
+CIH-148,(01)023892396773760(21)SN-0148,640G Insulin Pump Mmt-1711K H,Insulin Pump,IIb,Recalled,2024-10-19
+CIH-149,(01)010151423969335(21)SN-0149,640G Insulin Pump Mmt-1712W,Insulin Pump,IIb,Under Review,2019-03-22
+CIH-150,(01)089728271217997(21)SN-0150,Pump Mmt-1711Kl 640G V4.10 Bk Sf Mm,Insulin Pump,IIb,Active,2018-08-10
+CIH-151,(01)063203310162359(21)SN-0151,Sureform,Surgical Stapler,IIb,Active,2019-07-28
+CIH-152,(01)016988998903055(21)SN-0152,Covidien Curved Stapler,Surgical Stapler,IIb,Active,2025-06-10
+CIH-153,(01)058381430163900(21)SN-0153,Stapler 45 Reload,Surgical Stapler,IIb,Active,2024-03-02
+CIH-154,(01)083468529919687(21)SN-0154,Echelon Flex,Surgical Stapler,IIb,Active,2023-11-11
+CIH-155,(01)033834162167434(21)SN-0155,Davinci Xi Endo Wrist Stapler 45,Surgical Stapler,IIb,Under Review,2024-02-16
+CIH-156,(01)018935137361571(21)SN-0156,Davinci,Surgical Stapler,IIb,Active,2025-02-22
+CIH-157,(01)086239060081420(21)SN-0157,Intuitive Surgical Davinci 45Mm Stapler,Surgical Stapler,IIb,Active,2018-01-24
+CIH-158,(01)066352605422870(21)SN-0158,Surgical Stapler,Surgical Stapler,IIb,Active,2020-02-17
+CIH-159,(01)021251702570428(21)SN-0159,Powered Vascular Stapler,Surgical Stapler,IIb,Active,2023-09-01
+CIH-160,(01)038266632154096(21)SN-0160,Eea,Surgical Stapler,IIb,Recalled,2018-02-08
+CIH-161,(01)045534139655623(21)SN-0161,Cdmn Electrosurgical Unit Only,Electrosurgical Unit,IIb,Active,2018-01-14
+CIH-162,(01)024057591418382(21)SN-0162,Gi 4000 Electrosurgical Generator,Electrosurgical Unit,IIb,Recalled,2023-09-06
+CIH-163,(01)076574067078295(21)SN-0163,Acusnare Polypectomy Snare,Electrosurgical Unit,IIb,Active,2022-05-13
+CIH-164,(01)070844218928847(21)SN-0164,Electrosurgical Unit,Electrosurgical Unit,IIb,Active,2018-03-03
+CIH-165,(01)078425623832600(21)SN-0165,Single Use Electrosurgical Knife,Electrosurgical Unit,IIb,Recalled,2021-09-15
+CIH-166,(01)079418796182684(21)SN-0166,Da Vinci Xi,Electrosurgical Unit,IIb,Active,2020-04-27
+CIH-167,(01)038957777427423(21)SN-0167,Accusnare Polypectomy Snare,Electrosurgical Unit,IIb,Active,2022-06-26
+CIH-168,(01)070009963191533(21)SN-0168,Sabre 2400 Led Esu 120V,Electrosurgical Unit,IIb,Active,2021-12-09
+CIH-169,(01)052601490380017(21)SN-0169,Surgmaster Electrosurgical Unit,Electrosurgical Unit,IIb,Active,2023-07-19
+CIH-170,(01)046645780601328(21)SN-0170,Conmed,Electrosurgical Unit,IIb,Active,2022-11-21
+CIH-171,(01)035229172387550(21)SN-0171,Heart Start Xl,ECG Monitor,IIa,Active,2021-06-16
+CIH-172,(01)092767444831010(21)SN-0172,Philips M2601B S01 Ecg Telemetry Transmitter,ECG Monitor,IIa,Under Review,2025-04-03
+CIH-173,(01)037960363493647(21)SN-0173,Arrow Ac3 Optimus Iabp Na/Emea,ECG Monitor,IIa,Active,2019-03-19
+CIH-174,(01)011894448350973(21)SN-0174,Lntellivue Philips Patient Monitor 6000 Series,ECG Monitor,IIa,Active,2022-06-19
+CIH-175,(01)086302531211768(21)SN-0175,X Series,ECG Monitor,IIa,Active,2023-06-18
+CIH-176,(01)065971062902294(21)SN-0176,Lifevest Wcd 4000 System,ECG Monitor,IIa,Active,2024-09-15
+CIH-177,(01)093725723520701(21)SN-0177,Mckesson Cardiology Hemo,ECG Monitor,IIa,Active,2024-02-16
+CIH-178,(01)070283431553750(21)SN-0178,Symphony,ECG Monitor,IIa,Under Review,2023-12-17
+CIH-179,(01)030046889188246(21)SN-0179,Draeger Iacs C700,ECG Monitor,IIa,Active,2025-11-28
+CIH-180,(01)034915563271075(21)SN-0180,Alaris System Pc Unit,ECG Monitor,IIa,Active,2021-02-24
+CIH-181,(01)087011389489733(21)SN-0181,Da Vinci Surgical System,Surgical Robot,IIb,Recalled,2019-08-13
+CIH-182,(01)034886396104059(21)SN-0182,Rio 3.0 Upgrade,Surgical Robot,IIb,Under Review,2025-12-20
+CIH-183,(01)024373938921606(21)SN-0183,Evis Lucera Elite Colonovideoscope,Surgical Robot,IIb,Under Review,2019-02-09
+CIH-184,(01)057855482386390(21)SN-0184,Evis Lucera Elite Colonovideoscope D,Surgical Robot,IIb,Active,2021-07-01
+CIH-185,(01)055189087268049(21)SN-0185,7Mm Extended Length Endoscope,Surgical Robot,IIb,Inactive,2025-02-26
+CIH-186,(01)031526457099440(21)SN-0186,Endowrist,Surgical Robot,IIb,Active,2018-03-18
+CIH-187,(01)060304135271881(21)SN-0187,Rosa Surgical Device,Surgical Robot,IIb,Active,2024-04-03
+CIH-188,(01)037572444346935(21)SN-0188,"Stapler 30 Reload, White",Surgical Robot,IIb,Active,2021-06-05
+CIH-189,(01)053267317914278(21)SN-0189,Karl Storz Intubation Endoscope,Surgical Robot,IIb,Active,2019-07-02
+CIH-190,(01)019128622055425(21)SN-0190,Scope Buddy Plus Endoscope Flushing Aid,Surgical Robot,IIb,Active,2018-08-01
+CIH-191,(01)027651353763753(21)SN-0191,Elecsys Tsh Assay,Laboratory Analyzer,IIa,Under Review,2018-06-09
+CIH-192,(01)076020112106087(21)SN-0192,Au680 Chemistry Analyzer,Laboratory Analyzer,IIa,Active,2019-08-29
+CIH-193,(01)019026503225720(21)SN-0193,Atellica Im 1600 Analyzer,Laboratory Analyzer,IIa,Active,2020-12-20
+CIH-194,(01)023467489336757(21)SN-0194,Gem Premier 4000,Laboratory Analyzer,IIa,Under Review,2025-04-22
+CIH-195,(01)028347525678184(21)SN-0195,Xn-10,Laboratory Analyzer,IIa,Inactive,2018-12-01
+CIH-196,(01)015792683624941(21)SN-0196,Cell-Dyn Ruby,Laboratory Analyzer,IIa,Under Review,2020-04-10
+CIH-197,(01)035081807783106(21)SN-0197,Architect I2000Sr Analyzer,Laboratory Analyzer,IIa,Active,2021-09-07
+CIH-198,(01)054290719971317(21)SN-0198,Sysmex Xn-10,Laboratory Analyzer,IIa,Active,2018-05-11
+CIH-199,(01)073256650863364(21)SN-0199,Au480 Chemistry Analyzer,Laboratory Analyzer,IIa,Active,2024-01-29
+CIH-200,(01)092333662873913(21)SN-0200,Picollo Xpress Chemistry Analyzer,Laboratory Analyzer,IIa,Recalled,2019-03-11
+CIH-201,(01)081101774055199(21)SN-0201,Endoscpc Cann.Drl.Bit 4.5 Strl,Surgical Drill,IIa,Inactive,2025-01-31
+CIH-202,(01)024191641581091(21)SN-0202,"Microaire Sst Twist Drill, Standard",Surgical Drill,IIa,Recalled,2018-08-25
+CIH-203,(01)017656954191008(21)SN-0203,3.5Mm Universal Drill Guide,Surgical Drill,IIa,Active,2018-08-05
+CIH-204,(01)025488032318180(21)SN-0204,Inclusive Lance Drill Ø1.5 Mm,Surgical Drill,IIa,Active,2025-01-31
+CIH-205,(01)077760021991018(21)SN-0205,Real Intelligence Robotic Drill Tracker,Surgical Drill,IIa,Inactive,2018-02-05
+CIH-206,(01)031481573816390(21)SN-0206,Drill Guide Slotted Gii/Super/Rc/Gl,Surgical Drill,IIa,Under Review,2025-04-10
+CIH-207,(01)067664984337595(21)SN-0207,"Twist Drill For 6514-7-200, Diam.1.5X16Mm, 5Mm Wor",Surgical Drill,IIa,Active,2023-04-29
+CIH-208,(01)060794459079333(21)SN-0208,1.1Mm Wire Pass Drill Bit Medium,Surgical Drill,IIa,Inactive,2023-11-20
+CIH-209,(01)084416144283086(21)SN-0209,Unknown_K2M_Product,Surgical Drill,IIa,Active,2021-06-26
+CIH-210,(01)030023970769083(21)SN-0210,Flexible Drill Shaft Ic,Surgical Drill,IIa,Active,2020-06-20
+CIH-211,(01)073228126079909(21)SN-0211,Venovo Venous Stent System,Stent System,III,Active,2020-11-27
+CIH-212,(01)017024810478940(21)SN-0212,Synergy Ii Everolimus-Eluting Platinum Chromium Co,Stent System,III,Active,2019-07-29
+CIH-213,(01)068523885086431(21)SN-0213,Orsiro 2.25/13,Stent System,III,Active,2025-06-21
+CIH-214,(01)020472105059147(21)SN-0214,Smart Control Iliac,Stent System,III,Under Review,2020-01-31
+CIH-215,(01)059409748439417(21)SN-0215,Protege Rx Carotid Stent System,Stent System,III,Active,2018-07-23
+CIH-216,(01)043420478046073(21)SN-0216,Eluvia Drug-Eluting Vascular Stent System,Stent System,III,Active,2019-12-18
+CIH-217,(01)011197121281153(21)SN-0217,Niti-S Esophageal Comvi Stent,Stent System,III,Under Review,2021-03-22
+CIH-218,(01)026868697569581(21)SN-0218,Surpass Evolve 4.0Mm X 15Mm - Pmas,Stent System,III,Recalled,2021-11-11
+CIH-219,(01)053451984507033(21)SN-0219,Relay Thoracic Stent-Graft With Plus Delivery Syst,Stent System,III,Active,2023-11-05
+CIH-220,(01)077714714658659(21)SN-0220,Smart Flex 5X150 Vas 120Cm,Stent System,III,Under Review,2024-03-04
+CIH-221,(01)037992342332044(21)SN-0221,Epiq Elite,Ultrasound System,IIb,Active,2022-07-29
+CIH-222,(01)047772299338986(21)SN-0222,Epiq 7C,Ultrasound System,IIb,Active,2018-11-28
+CIH-223,(01)085306683970368(21)SN-0223,Acuson P500 Ultrasound System,Ultrasound System,IIb,Active,2023-01-12
+CIH-224,(01)014505398799833(21)SN-0224,Acuson Z6Ms Ultrasound Transducer,Ultrasound System,IIb,Inactive,2018-05-22
+CIH-225,(01)093624200347539(21)SN-0225,Ilab Ultrasound Imaging System,Ultrasound System,IIb,Inactive,2022-01-04
+CIH-226,(01)049867325113619(21)SN-0226,Epiq 5G Ultrasound System,Ultrasound System,IIb,Active,2023-03-16
+CIH-227,(01)058047514034861(21)SN-0227,Evis Exera Ii Ultrasound Gastrovideoscope,Ultrasound System,IIb,Active,2018-02-22
+CIH-228,(01)059847306599875(21)SN-0228,Ilab Ultrasound Imaging System H,Ultrasound System,IIb,Under Review,2025-06-10
+CIH-229,(01)039868871048696(21)SN-0229,M9 Diagnostic Ultrasound System,Ultrasound System,IIb,Active,2019-06-03
+CIH-230,(01)037038489313696(21)SN-0230,Sonosite Iviz Portable Ultrasound,Ultrasound System,IIb,Inactive,2021-11-08
+CIH-231,(01)088899397646346(21)SN-0231,Medtronic Tubing Pack,ECMO System,III,Active,2025-01-18
+CIH-232,(01)084485051090149(21)SN-0232,Turnpike Lp 135Cm,ECMO System,III,Inactive,2020-05-09
+CIH-233,(01)053577848209611(21)SN-0233,Nxstage,ECMO System,III,Active,2018-08-03
+CIH-234,(01)066042303969897(21)SN-0234,Evolut Fx Valve,ECMO System,III,Active,2025-10-17
+CIH-235,(01)023992634822399(21)SN-0235,Ecmo Machine Cardiohelp,ECMO System,III,Inactive,2025-01-11
+CIH-236,(01)036641278486296(21)SN-0236,Thoratec® Heartmate 3® Lvas Implant Kit,ECMO System,III,Under Review,2023-05-14
+CIH-237,(01)021507021421320(21)SN-0237,Watchman Fxd Curve Access System,ECMO System,III,Active,2018-01-01
+CIH-238,(01)032042098452315(21)SN-0238,Prismaflex Set,ECMO System,III,Active,2021-09-25
+CIH-239,(01)052205060452980(21)SN-0239,Impella Cp,ECMO System,III,Inactive,2019-12-21
+CIH-240,(01)026182622698496(21)SN-0240,Infinity Acute Care System (M540),ECMO System,III,Active,2024-10-25
+CIH-241,(01)041335178120366(21)SN-0241,Neoblue 3,Phototherapy System,IIa,Active,2018-09-23
+CIH-242,(01)091834635773795(21)SN-0242,Bililux Phototherapy Light,Phototherapy System,IIa,Active,2020-04-11
+CIH-243,(01)081524568021391(21)SN-0243,Bililux Phototherapy Light C,Phototherapy System,IIa,Active,2019-11-19
+CIH-244,(01)045579104958410(21)SN-0244,Neoblue 3 Led Phototherapy System,Phototherapy System,IIa,Under Review,2024-09-07
+CIH-245,(01)058458292829724(21)SN-0245,Architect C4000,Phototherapy System,IIa,Active,2018-10-15
+CIH-246,(01)040137455420075(21)SN-0246,Pharos Excimer Laser System,Phototherapy System,IIa,Active,2023-04-26
+CIH-247,(01)051851759027007(21)SN-0247,Bililux Phototherapy Light G,Phototherapy System,IIa,Active,2020-03-06
+CIH-248,(01)098921777733158(21)SN-0248,Bilitx Light Source,Phototherapy System,IIa,Recalled,2024-02-10
+CIH-249,(01)062259797361708(21)SN-0249,Pharos Excimer Laser System I,Phototherapy System,IIa,Inactive,2020-06-30
+CIH-250,(01)047735328603941(21)SN-0250,Alinity C Total Bilirubin Reagent Kit,Phototherapy System,IIa,Recalled,2023-08-19
+CIH-251,(01)093960452872833(21)SN-0251,Ge Carestation 650 Anesthesia Machine,Anesthesia Machine,IIb,Active,2023-09-09
+CIH-252,(01)059494596176704(21)SN-0252,Narkomed,Anesthesia Machine,IIb,Recalled,2023-11-28
+CIH-253,(01)084671082138332(21)SN-0253,Aestiva 5/7900,Anesthesia Machine,IIb,Active,2021-09-04
+CIH-254,(01)093431617708558(21)SN-0254,Anesthesia Breathing Bag,Anesthesia Machine,IIb,Active,2025-10-06
+CIH-255,(01)058835407053925(21)SN-0255,Fabius Gs Anesthesia Machine,Anesthesia Machine,IIb,Under Review,2021-03-26
+CIH-256,(01)063269953191691(21)SN-0256,Spacelabs,Anesthesia Machine,IIb,Inactive,2021-06-06
+CIH-257,(01)032936689849187(21)SN-0257,Mindray A7 Anesthesia Machine,Anesthesia Machine,IIb,Active,2018-05-26
+CIH-258,(01)010461098167284(21)SN-0258,Spacelabs H,Anesthesia Machine,IIb,Active,2018-10-01
+CIH-259,(01)086971814505132(21)SN-0259,Aisys Cs2,Anesthesia Machine,IIb,Under Review,2019-03-30
+CIH-260,(01)042520314319208(21)SN-0260,Spacelabs J,Anesthesia Machine,IIb,Recalled,2024-03-02
+CIH-261,(01)086626811321272(21)SN-0261,Essentio? Mri El Dr,Pacemaker/ICD,III,Inactive,2019-11-24
+CIH-262,(01)043464111583285(21)SN-0262,Solia S 60,Pacemaker/ICD,III,Active,2023-03-19
+CIH-263,(01)072542199416989(21)SN-0263,Reply,Pacemaker/ICD,III,Recalled,2024-12-17
+CIH-264,(01)015037753279390(21)SN-0264,Permanent Pacemaker Electrode,Pacemaker/ICD,III,Under Review,2021-02-12
+CIH-265,(01)062289719239468(21)SN-0265,Reply 200,Pacemaker/ICD,III,Active,2022-02-09
+CIH-266,(01)040239948478951(21)SN-0266,Identity Xl Dr,Pacemaker/ICD,III,Inactive,2025-07-29
+CIH-267,(01)070653747294645(21)SN-0267,Rhythmia¿ Mapping System,Pacemaker/ICD,III,Recalled,2020-09-11
+CIH-268,(01)023691897124219(21)SN-0268,Petite,Pacemaker/ICD,III,Inactive,2021-01-28
+CIH-269,(01)057808842908704(21)SN-0269,Medtronic,Pacemaker/ICD,III,Active,2020-01-18
+CIH-270,(01)037413189829327(21)SN-0270,Azure Xt Dr Mri Surescan Pacemaker,Pacemaker/ICD,III,Recalled,2018-02-13
+CIH-271,(01)027475512217408(21)SN-0271,EVIS EXERA III CV-190,Endoscope,IIa,Under Review,2019-06-21
+CIH-272,(01)037379518017861(21)SN-0272,STORZ HOPKINS Telescope,Endoscope,IIa,Recalled,2025-09-16
+CIH-273,(01)094210465685531(21)SN-0273,ELUXEO 7000 Endoscope,Endoscope,IIa,Inactive,2020-07-11
+CIH-274,(01)084097030430091(21)SN-0274,EPK-i7010 Processor,Endoscope,IIa,Recalled,2023-04-24
+CIH-275,(01)019667156134242(21)SN-0275,Pentax EG-3490K Gastroscope,Endoscope,IIa,Recalled,2025-05-26
+CIH-276,(01)035644361373484(21)SN-0276,ENDOCAM Logic 4K System,Endoscope,IIa,Inactive,2019-10-18
+CIH-277,(01)010113396355384(21)SN-0277,1588 AIM Camera System,Endoscope,IIa,Under Review,2024-04-21
+CIH-278,(01)089734321485520(21)SN-0278,DYONICS POWER II System,Endoscope,IIa,Under Review,2024-05-17
+CIH-279,(01)047021467682875(21)SN-0279,SynergyUHD4 Camera System,Endoscope,IIa,Inactive,2018-04-22
+CIH-280,(01)082742681954545(21)SN-0280,IM4000 Integrated Camera,Endoscope,IIa,Inactive,2021-07-27
+CIH-281,(01)060952727859548(21)SN-0281,Pro6000 Bulk Pk Thermometers New Asic,Thermometer,I,Active,2020-07-27
+CIH-282,(01)060176673593590(21)SN-0282,Pro 6000 W/Small Cradle,Thermometer,I,Active,2024-10-12
+CIH-283,(01)076949786289738(21)SN-0283,Braun,Thermometer,I,Active,2019-07-28
+CIH-284,(01)069431751469968(21)SN-0284,1Lyrtr 16Fr10Ml100% Siltmp Snp,Thermometer,I,Active,2019-10-16
+CIH-285,(01)026765759997591(21)SN-0285,Medi-Choice Digital Thermometer,Thermometer,I,Active,2023-07-26
+CIH-286,(01)067594389979353(21)SN-0286,Dtt Thermometer,Thermometer,I,Inactive,2025-04-16
+CIH-287,(01)043101945881043(21)SN-0287,Avent Smart Ear Thermometer And Philips Ear Thermo,Thermometer,I,Active,2021-08-02
+CIH-288,(01)099848565344568(21)SN-0288,Arc Devices Ltd Instatemp Thermometer Of Tomorrow,Thermometer,I,Active,2022-07-27
+CIH-289,(01)019718216006696(21)SN-0289,Mon-A-Therm,Thermometer,I,Active,2021-01-21
+CIH-290,(01)067781779643980(21)SN-0290,Surescan,Thermometer,I,Active,2025-08-19
+CIH-291,(01)022845569857686(21)SN-0291,Glenoid Rmr Sft W/Glove Protector,Surgical Glove,I,Inactive,2018-03-27
+CIH-292,(01)064587508432444(21)SN-0292,Pack Minor Lithotomy,Surgical Glove,I,Active,2025-07-06
+CIH-293,(01)089776174189772(21)SN-0293,Biogel Pi Indicator Underglove,Surgical Glove,I,Active,2025-10-05
+CIH-294,(01)018816591959826(21)SN-0294,Lumenis Laser Moses 200,Surgical Glove,I,Under Review,2024-08-13
+CIH-295,(01)083188121495269(21)SN-0295,Custom-Pak Surgical Procedure Pack,Surgical Glove,I,Active,2023-05-09
+CIH-296,(01)059673340328107(21)SN-0296,Henry Schein,Surgical Glove,I,Recalled,2022-01-16
+CIH-297,(01)068060126450243(21)SN-0297,Glove Surgical Protexis Pi,Surgical Glove,I,Active,2018-11-07
+CIH-298,(01)035771138089091(21)SN-0298,Triumph Micro Surgical Gloves,Surgical Glove,I,Active,2021-11-14
+CIH-299,(01)016803256884835(21)SN-0299,"Rocker-Switch Smoke Evac Pencil, Coated",Surgical Glove,I,Inactive,2020-03-22
+CIH-300,(01)023668029783189(21)SN-0300,3611 Lite Glove,Surgical Glove,I,Under Review,2020-06-18
+CIH-301,(01)019011586770721(21)SN-0301,Lucea 10,Examination Light,I,Inactive,2018-12-19
+CIH-302,(01)032851429123447(21)SN-0302,Overhead Light,Examination Light,I,Active,2020-08-14
+CIH-303,(01)064281089355346(21)SN-0303,Rxsight Light Adjustable Lens (Rxlal),Examination Light,I,Inactive,2018-01-01
+CIH-304,(01)099069897659312(21)SN-0304,Visera Pro Xenon Light Source,Examination Light,I,Active,2025-04-24
+CIH-305,(01)068911320201675(21)SN-0305,Visera Elite Xenon Light Source,Examination Light,I,Active,2019-05-11
+CIH-306,(01)076458904050942(21)SN-0306,"Examination Light F 300, Ceiling Mount, Led Dimmab",Examination Light,I,Under Review,2018-07-15
+CIH-307,(01)078339227519584(21)SN-0307,Luxtec Headlight System,Examination Light,I,Under Review,2024-06-16
+CIH-308,(01)062058650101096(21)SN-0308,Colonovideoscope,Examination Light,I,Active,2022-03-09
+CIH-309,(01)098104237095248(21)SN-0309,Pentax,Examination Light,I,Under Review,2019-10-12
+CIH-310,(01)082232088364293(21)SN-0310,Her-Spec Light Vaginal Speculum,Examination Light,I,Active,2020-03-15
+CIH-311,(01)052195071447268(21)SN-0311,Interstim Ii,Stethoscope,I,Active,2022-05-04
+CIH-312,(01)072648658466130(21)SN-0312,Edi Catheter,Stethoscope,I,Inactive,2023-06-09
+CIH-313,(01)092864735923417(21)SN-0313,Cocr Head 32/-4 'S' 12/14,Stethoscope,I,Active,2019-08-29
+CIH-314,(01)074992604668451(21)SN-0314,Cavn Stethoscope,Stethoscope,I,Under Review,2018-10-22
+CIH-315,(01)092956097798570(21)SN-0315,Level 1® Esophageal Stethoscope Temperature Sensor,Stethoscope,I,Inactive,2022-11-13
+CIH-316,(01)069925985271228(21)SN-0316,Vela Ventilator,Stethoscope,I,Active,2021-10-13
+CIH-317,(01)078984320312014(21)SN-0317,Salem Sump,Stethoscope,I,Active,2019-02-05
+CIH-318,(01)067626911135936(21)SN-0318,Thoratec® Heartmate 3¿ Vad Modular Cable,Stethoscope,I,Under Review,2019-10-21
+CIH-319,(01)025596901327425(21)SN-0319,Bci,Stethoscope,I,Active,2022-04-11
+CIH-320,(01)087868348106199(21)SN-0320,Activa,Stethoscope,I,Active,2019-07-02
+CIH-321,(01)091407822221739(21)SN-0321,Tegaderm Film Dressing,Bandage / Wound Dressing,I,Active,2025-12-30
+CIH-322,(01)021088808829327(21)SN-0322,Opsite Flexigrid,Bandage / Wound Dressing,I,Active,2022-11-05
+CIH-323,(01)055866857107964(21)SN-0323,Mepore Adhesive Dressing,Bandage / Wound Dressing,I,Active,2025-07-20
+CIH-324,(01)028465752813479(21)SN-0324,Cosmopor E Sterile,Bandage / Wound Dressing,I,Inactive,2020-08-30
+CIH-325,(01)071915079693893(21)SN-0325,Leukoplast Elastic,Bandage / Wound Dressing,I,Active,2022-10-31
+CIH-326,(01)083437228464633(21)SN-0326,Comfeel Plus Transparent,Bandage / Wound Dressing,I,Active,2024-11-21
+CIH-327,(01)099279891998169(21)SN-0327,Zetuvit Plus,Bandage / Wound Dressing,I,Active,2022-08-18
+CIH-328,(01)087086663550128(21)SN-0328,Bordered Gauze Dressing,Bandage / Wound Dressing,I,Under Review,2023-02-24
+CIH-329,(01)078677191351722(21)SN-0329,Dermacea Gauze Sponge,Bandage / Wound Dressing,I,Inactive,2019-11-07
+CIH-330,(01)059773014273056(21)SN-0330,Foam Island Dressing,Bandage / Wound Dressing,I,Active,2021-07-15
+CIH-331,(01)098983612492515(21)SN-0331,Puritan Sterile Tongue Depressor,Tongue Depressor,I,Active,2023-09-16
+CIH-332,(01)029775550734701(21)SN-0332,Wooden Tongue Depressor,Tongue Depressor,I,Active,2021-05-23
+CIH-333,(01)059802583728742(21)SN-0333,Sterile Tongue Blade,Tongue Depressor,I,Inactive,2022-05-03
+CIH-334,(01)055490484504759(21)SN-0334,Grafco Tongue Depressor,Tongue Depressor,I,Active,2019-10-07
+CIH-335,(01)016081199909500(21)SN-0335,McKesson Tongue Depressor,Tongue Depressor,I,Active,2022-08-12
+CIH-336,(01)011089412748428(21)SN-0336,Birchwood Standard Tongue Blade,Tongue Depressor,I,Under Review,2021-04-17
+CIH-337,(01)091566035687990(21)SN-0337,Dynarex Tongue Depressor,Tongue Depressor,I,Active,2021-05-11
+CIH-338,(01)051493485746934(21)SN-0338,Medpride Sterile Tongue Blade,Tongue Depressor,I,Active,2020-05-23
+CIH-339,(01)030371802965199(21)SN-0339,AMG Tongue Depressor,Tongue Depressor,I,Active,2021-10-18
+CIH-340,(01)037352001826677(21)SN-0340,Welch Allyn Fiber Optic Tongue Blade,Tongue Depressor,I,Under Review,2018-07-18
