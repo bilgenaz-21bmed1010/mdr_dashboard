@@ -6,17 +6,17 @@ INCIDENTS_PATH = "data/incidents.csv"
 DEVICES_PATH = "data/devices.csv"
 
 SEVERITY_OPTIONS = {
-    "Immediate threat to public health (Article 87/1a)": 10,
-    "Serious incident – Death / Unexpected deterioration (Article 87/1b)": 15,
-    "Serious incident – Expected deterioration (Article 87/1b)": 30,
-    "Trend report (Article 88)": 90,
+    "Serious public health threat (Article 87/1a)": 2,
+    "Death or unanticipated serious deterioration (Article 87/1b)": 10,
+    "Serious incident – general (Article 87/1b)": 15,
+    "Trend report (Article 88)": 30,
 }
 
 SEVERITY_COLORS = {
-    10: "#f87171",
-    15: "#fb923c",
-    30: "#fbbf24",
-    90: "#60a5fa",
+    2:  "#f87171",
+    10: "#fb923c",
+    15: "#fbbf24",
+    30: "#60a5fa",
 }
 
 INCIDENT_TYPES = [
@@ -103,6 +103,243 @@ def load_devices():
         return pd.DataFrame()
 
 
+# MDR severity mapping: CSV value → (MDR label, days, article)
+SEVERITY_MAP = {
+    "Serious (Public Health Threat)":   ("Serious public health threat",              2,  "Art. 87/1a"),
+    "Serious (Life-threatening)":        ("Death / unanticipated serious deterioration", 10, "Art. 87/1b"),
+    "Serious (Hospitalization)":         ("Serious incident - general",                15, "Art. 87/1b"),
+    "Non-Serious":                       ("Trend reporting",                           30, "Art. 88"),
+}
+
+def get_days_from_ciddiyet(ciddiyet: str) -> int:
+    """Calculate reporting window in days based on incident type per EU MDR Article 87/88."""
+    if ciddiyet in SEVERITY_MAP:
+        return SEVERITY_MAP[ciddiyet][1]
+    c = str(ciddiyet).lower()
+    if "non-serious" in c or "non serious" in c or "trend" in c:
+        return 30
+    elif "public health" in c:
+        return 2
+    elif "life-threatening" in c or "death" in c or "unanticipated" in c:
+        return 10
+    elif "serious" in c:
+        return 15
+    else:
+        return 15
+
+
+def _safe(text):
+    """Convert text to latin-1 safe string, preserving as much as possible."""
+    if not text:
+        return "-"
+    # Try unicode replacement via encoding
+    result = []
+    for ch in str(text):
+        try:
+            ch.encode("latin-1")
+            result.append(ch)
+        except UnicodeEncodeError:
+            # Map common Turkish chars
+            tr_map = {
+                "ş": "s", "Ş": "S", "ğ": "g", "Ğ": "G",
+                "ı": "i", "İ": "I", "ç": "c", "Ç": "C",
+                "ö": "o", "Ö": "O", "ü": "u", "Ü": "U",
+            }
+            result.append(tr_map.get(ch, "?"))
+    return "".join(result)
+
+
+def generate_pdf(row: dict, device_row: dict = None) -> bytes:
+    from fpdf import FPDF
+
+    pdf = FPDF()
+    pdf.set_auto_page_break(auto=True, margin=25)
+    pdf.add_page()
+    pdf.set_margins(25, 25, 25)
+
+    gen_date = date.today().strftime("%d %B %Y")
+    ref = _safe(row.get("olay_id", "N/A"))
+    status = str(row.get("durum", "")).strip()
+
+    STATUS_COLORS = {
+        "Open":               (37, 99, 235),
+        "Under Investigation":(217, 119, 6),
+        "Closed":             (22, 101, 52),
+        "Overdue":            (185, 28, 28),
+    }
+    status_color = STATUS_COLORS.get(status, (75, 85, 99))
+
+    def draw_line(y=None, width=160):
+        if y is None:
+            y = pdf.get_y()
+        pdf.set_draw_color(200, 200, 200)
+        pdf.line(25, y, 25 + width, y)
+
+    def section_title(number, title):
+        pdf.ln(4)
+        draw_line()
+        pdf.ln(3)
+        pdf.set_font("Helvetica", "B", 10)
+        pdf.set_text_color(30, 30, 30)
+        pdf.cell(0, 7, f"{number}.  {_safe(title)}", ln=True)
+        pdf.ln(1)
+
+    def field(label, value, value_color=None):
+        pdf.set_font("Helvetica", "B", 8)
+        pdf.set_text_color(90, 90, 90)
+        pdf.cell(58, 6, _safe(label), ln=False)
+        pdf.set_font("Helvetica", "", 8)
+        if value_color:
+            pdf.set_text_color(*value_color)
+        else:
+            pdf.set_text_color(20, 20, 20)
+        pdf.multi_cell(0, 6, _safe(value))
+        pdf.ln(0.5)
+
+    # ── Header ─────────────────────────────────────────────────────
+    # Top rule
+    pdf.set_draw_color(30, 56, 100)
+    pdf.set_line_width(1.2)
+    pdf.line(25, 20, 185, 20)
+    pdf.set_line_width(0.2)
+    pdf.ln(4)
+
+    pdf.set_font("Helvetica", "B", 15)
+    pdf.set_text_color(20, 20, 20)
+    pdf.cell(0, 8, "INCIDENT REPORT", ln=True, align="C")
+
+    pdf.set_font("Helvetica", "", 9)
+    pdf.set_text_color(80, 80, 80)
+    pdf.cell(0, 6, "EU MDR 2017/745  |  Article 87  |  MDR Compliance Dashboard", ln=True, align="C")
+
+    pdf.ln(2)
+    pdf.set_draw_color(30, 56, 100)
+    pdf.set_line_width(0.4)
+    pdf.line(25, pdf.get_y(), 185, pdf.get_y())
+    pdf.set_line_width(0.2)
+    pdf.ln(4)
+
+    # Reference + Status line
+    pdf.set_font("Helvetica", "B", 8)
+    pdf.set_text_color(90, 90, 90)
+    pdf.cell(30, 6, "Reference No:", ln=False)
+    pdf.set_font("Helvetica", "B", 8)
+    pdf.set_text_color(20, 20, 20)
+    pdf.cell(40, 6, ref, ln=False)
+
+    pdf.cell(30, 6, "Status:", ln=False)
+    pdf.set_font("Helvetica", "B", 8)
+    pdf.set_text_color(*status_color)
+    pdf.cell(40, 6, _safe(status).upper(), ln=False)
+
+    pdf.set_font("Helvetica", "", 8)
+    pdf.set_text_color(90, 90, 90)
+    pdf.cell(0, 6, f"Generated: {gen_date}", ln=True, align="R")
+    pdf.ln(3)
+
+    # ── Section 1: Incident Information ───────────────────────────
+    # Format dates as dd/mm/yyyy
+    def fmt_date(val):
+        from datetime import datetime as _dtt
+        s = str(val)[:10]
+        try:
+            return _dtt.strptime(s, "%Y-%m-%d").strftime("%d/%m/%Y")
+        except:
+            return s
+
+    section_title("1", "Incident Information  (Article 87)")
+    field("Incident ID:", row.get("olay_id", ""))
+    field("Incident Date:", fmt_date(row.get("olay_tarihi", "")))
+    field("Reported to System:", fmt_date(row.get("raporlama_tarihi", "")) or "Not recorded")
+
+    # Calculate deadline dynamically from incident_date + ciddiyet (MDR Article 87)
+    from datetime import datetime as _dt
+    ciddiyet_for_calc = str(row.get("ciddiyet", ""))
+    days_window = get_days_from_ciddiyet(ciddiyet_for_calc)
+    inc_date_raw = str(row.get("olay_tarihi", ""))[:10]
+    try:
+        inc_date_obj = _dt.strptime(inc_date_raw, "%Y-%m-%d").date()
+        calc_deadline = inc_date_obj + timedelta(days=days_window)
+        deadline_str = calc_deadline.strftime("%d/%m/%Y")
+    except Exception:
+        deadline_str = str(row.get("deadline", ""))[:10]
+    is_overdue = status == "Overdue"
+    field("Reporting Deadline (MDR Art. 87):",
+          deadline_str + (" - OVERDUE" if is_overdue else ""),
+          value_color=(185, 28, 28) if is_overdue else None)
+
+    # Incident type + MDR timeline in one line
+    ciddiyet_val = _safe(row.get("ciddiyet", "") or "Not specified")
+    sev_raw = row.get("severity_class", "") or ""
+    c_lower = ciddiyet_for_calc.lower()
+    if "non-serious" in c_lower or "non serious" in c_lower or "trend" in c_lower:
+        timeline_tag = "30 days (Art. 88 - Trend Reporting)"
+    elif "public health" in c_lower:
+        timeline_tag = "2 days (Art. 87/1a)"
+    elif "death" in c_lower or "unanticipated" in c_lower or "unexpected" in c_lower or "life-threatening" in c_lower:
+        timeline_tag = "10 days (Art. 87/1b)"
+    elif "serious" in c_lower:
+        timeline_tag = "15 days (Art. 87/1b)"
+    else:
+        timeline_tag = ""
+    incident_type_display = f"{ciddiyet_val} - {timeline_tag}" if timeline_tag else ciddiyet_val
+    field("Incident Type:", incident_type_display)
+
+    # Lot number - only show if provided
+    lot = row.get("lot_no", "") or ""
+    if lot.strip():
+        field("Lot / Batch Number:", lot)
+
+    # ── Section 2: Device Information ─────────────────────────────
+    section_title("2", "Device Information  (Article 27)")
+    if device_row:
+        field("Device Name:", device_row.get("isim", ""))
+        field("UDI Code:", device_row.get("udi_kodu", ""))
+        field("Device Classification:", device_row.get("risk_sinifi", ""))
+        field("Category:", device_row.get("kategori", ""))
+        field("Registration Date:", str(device_row.get("kayit_tarihi", ""))[:10])
+        field("Device Status:", device_row.get("durum", ""))
+    else:
+        field("UDI Code:", row.get("udi_kodu", "") or "Not recorded")
+
+    # ── Section 3: Incident Description ───────────────────────────
+    section_title("3", "Incident Description  (Article 87/4)")
+    pdf.set_font("Helvetica", "", 8)
+    pdf.set_text_color(20, 20, 20)
+    pdf.multi_cell(0, 6, _safe(row.get("aciklama", "No description provided.")))
+
+    # ── Section 4: Reporting Information ──────────────────────────
+    section_title("4", "Reporting Information  (Article 87/1)")
+    field("Reported By:", row.get("raporlayan", ""))
+    field("Report Generated:", gen_date)
+    field("Dashboard Version:", "WP4 Prototype")
+
+    # ── Compliance Note ────────────────────────────────────────────
+    pdf.ln(4)
+    draw_line()
+    pdf.ln(3)
+    pdf.set_font("Helvetica", "I", 7)
+    pdf.set_text_color(100, 100, 100)
+    pdf.multi_cell(
+        0, 5,
+        "This report has been generated in accordance with EU MDR 2017/745. Serious incidents must be "
+        "reported to the relevant Competent Authority within the mandatory timeframes specified under "
+        "Article 87. This document serves as an initial incident report and does not replace the "
+        "official submission to the Competent Authority."
+    )
+
+    # ── Footer ─────────────────────────────────────────────────────
+    pdf.ln(4)
+    draw_line()
+    pdf.ln(2)
+    pdf.set_font("Helvetica", "I", 7)
+    pdf.set_text_color(120, 120, 120)
+    pdf.cell(0, 5,
+        f"MDR Compliance Dashboard  |  EU MDR 2017/745  |  WP4 Prototype  |  {gen_date}",
+        align="C"
+    )
+
+    return pdf.output()
 def save_new_device(name, udi_code, classification, category):
     df = load_devices()
     if not df.empty and "cihaz_id" in df.columns:
@@ -156,19 +393,19 @@ def render():
                         margin-bottom:12px;">Mandatory Reporting Windows</div>
             <div style="display:flex;gap:24px;flex-wrap:wrap;">
                 <div style="display:flex;align-items:center;gap:8px;">
-                    <span style="background:#f87171;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">10 days</span>
-                    <span style="font-size:12px;color:#94a3b8;">Public health threat (Art. 87/1a)</span>
+                    <span style="background:#f87171;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">2 days</span>
+                    <span style="font-size:12px;color:#94a3b8;">Serious public health threat (Art. 87/1a)</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:8px;">
-                    <span style="background:#fb923c;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">15 days</span>
-                    <span style="font-size:12px;color:#94a3b8;">Death / unexpected deterioration (Art. 87/1b)</span>
+                    <span style="background:#fb923c;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">10 days</span>
+                    <span style="font-size:12px;color:#94a3b8;">Death / unanticipated serious deterioration (Art. 87/1b)</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;">
-                    <span style="background:#fbbf24;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">30 days</span>
-                    <span style="font-size:12px;color:#94a3b8;">Expected deterioration (Art. 87/1b)</span>
+                    <span style="background:#fbbf24;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">15 days</span>
+                    <span style="font-size:12px;color:#94a3b8;">Serious incident – general (Art. 87/1b)</span>
                 </div>
                 <div style="display:flex;align-items:center;gap:10px;">
-                    <span style="background:#60a5fa;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">90 days</span>
+                    <span style="background:#60a5fa;border-radius:4px;padding:2px 8px;font-size:12px;font-weight:700;color:#0f1922;">30 days</span>
                     <span style="font-size:12px;color:#94a3b8;">Trend reporting (Art. 88)</span>
                 </div>
             </div>
@@ -253,10 +490,15 @@ def render():
 
         if open_col:
             open_count = len(df[df[open_col].isin(["Open", "Under Investigation"])])
-            overdue_count = (
-                len(df[(df["deadline"] < today_ts) & (~df[open_col].isin(["Closed"]))])
-                if "deadline" in df.columns else 0
-            )
+            # Calculate mdr_deadline dynamically for all rows
+            if "ciddiyet" in df.columns and "olay_tarihi" in df.columns:
+                df["_mdr_days"] = df["ciddiyet"].apply(get_days_from_ciddiyet)
+                df["_mdr_deadline"] = pd.to_datetime(df["olay_tarihi"], errors="coerce") +                     df["_mdr_days"].apply(lambda d: pd.Timedelta(days=d))
+                overdue_count = len(df[
+                    (df["_mdr_deadline"] < today_ts) & (~df[open_col].isin(["Closed"]))
+                ])
+            else:
+                overdue_count = 0
         else:
             open_count = 0
             overdue_count = 0
@@ -281,7 +523,7 @@ def render():
 
         st.markdown("<div style='margin-top:8px;'></div>", unsafe_allow_html=True)
 
-        f_col1, f_col2 = st.columns(2)
+        f_col1, f_col2, f_col3 = st.columns(3)
         with f_col1:
             search = st.text_input("Search Device / Incident ID", placeholder="e.g. INC-001", key="m2_search")
         with f_col2:
@@ -289,34 +531,54 @@ def render():
             if open_col and open_col in df.columns:
                 status_opts += sorted(df[open_col].dropna().unique().tolist())
             status_filter = st.selectbox("Status Filter", status_opts, key="m2_status")
+        with f_col3:
+            severity_opts = ["All"] + list(SEVERITY_MAP.keys())
+            severity_filter = st.selectbox("Severity Filter", severity_opts, key="m2_severity_filter")
 
         filtered = df.copy()
+
+        # Remap ciddiyet to MDR labels and recalculate deadlines
+        if "ciddiyet" in filtered.columns:
+            filtered["mdr_severity"] = filtered["ciddiyet"].apply(
+                lambda x: SEVERITY_MAP.get(x, (x, 15, ""))[0]
+            )
+            filtered["mdr_days"] = filtered["ciddiyet"].apply(get_days_from_ciddiyet)
+            if "olay_tarihi" in filtered.columns:
+                filtered["mdr_deadline"] = pd.to_datetime(filtered["olay_tarihi"], errors="coerce") +                     filtered["mdr_days"].apply(lambda d: pd.Timedelta(days=d))
+
         if search:
             mask = filtered.apply(lambda row: row.astype(str).str.contains(search, case=False).any(), axis=1)
             filtered = filtered[mask]
         if status_filter != "All" and open_col:
             filtered = filtered[filtered[open_col] == status_filter]
+        if severity_filter != "All" and "ciddiyet" in filtered.columns:
+            filtered = filtered[filtered["ciddiyet"] == severity_filter]
 
         st.markdown(f"<div style='font-size:12px;color:#64748b;margin-bottom:10px;'>{len(filtered)} record(s) shown</div>", unsafe_allow_html=True)
 
-        display_cols = [c for c in ["olay_id", "cihaz_id", "ciddiyet", "olay_tarihi", "deadline", "durum"] if c in filtered.columns]
-        if display_cols:
-            display_df = filtered[display_cols].copy()
-            for date_col in ["olay_tarihi", "deadline"]:
+        # Build display dataframe with MDR labels and recalculated deadlines
+        disp_cols_map = {
+            "olay_id": "Incident ID",
+            "cihaz_id": "Device ID",
+            "mdr_severity": "Severity (MDR)",
+            "olay_tarihi": "Incident Date",
+            "raporlama_tarihi": "Reported to System",
+            "mdr_deadline": "Reporting Deadline",
+            "durum": "Status",
+        }
+        available = [c for c in disp_cols_map if c in filtered.columns]
+        if available:
+            display_df = filtered[available].copy()
+            for date_col in ["olay_tarihi", "raporlama_tarihi", "mdr_deadline"]:
                 if date_col in display_df.columns:
-                    display_df[date_col] = display_df[date_col].apply(lambda x: x.strftime("%Y-%m-%d") if pd.notna(x) else "")
-            col_rename = {
-                "olay_id": "Incident ID", "cihaz_id": "Device ID",
-                "ciddiyet": "Severity", "olay_tarihi": "Incident Date",
-                "deadline": "Deadline", "durum": "Status",
-            }
-            display_df = display_df.rename(columns=col_rename)
+                    display_df[date_col] = pd.to_datetime(display_df[date_col], errors="coerce").apply(
+                        lambda x: x.strftime("%d/%m/%Y") if pd.notna(x) else ""
+                    )
+            display_df = display_df.rename(columns=disp_cols_map)
             styled = display_df.style.apply(
                 lambda row: [
                     "background-color:rgba(248,113,113,0.10);color:#f87171"
-                    if row.get("Status", "") not in ["Closed"]
-                    and row.get("Deadline", "") != ""
-                    and row.get("Deadline", "") < today_ts.strftime("%Y-%m-%d")
+                    if row.get("Status", "") == "Overdue"
                     else "" for _ in row
                 ], axis=1,
             )
@@ -330,6 +592,48 @@ def render():
             "</div>",
             unsafe_allow_html=True,
         )
+
+        # ── PDF Export ────────────────────────────────────────────────
+        st.markdown("<div style='margin-top:24px;'></div>", unsafe_allow_html=True)
+        st.markdown(
+            "<div style='font-size:11px;letter-spacing:1.5px;color:#64748b;text-transform:uppercase;margin-bottom:10px;'>Export Incident Report as PDF</div>",
+            unsafe_allow_html=True,
+        )
+
+        if not filtered.empty and "olay_id" in filtered.columns:
+            incident_ids = filtered["olay_id"].astype(str).tolist()
+            selected_id = st.selectbox("Select Incident", options=incident_ids, key="m2_pdf_select")
+            selected_row = filtered[filtered["olay_id"].astype(str) == selected_id]
+
+            if not selected_row.empty:
+                row_dict = selected_row.iloc[0].to_dict()
+                for k, v in row_dict.items():
+                    if hasattr(v, "strftime"):
+                        row_dict[k] = v.strftime("%Y-%m-%d")
+                    elif str(v) == "nan":
+                        row_dict[k] = ""
+
+                # Load matching device info
+                dev_df = load_devices()
+                device_info = None
+                if not dev_df.empty and "cihaz_id" in dev_df.columns:
+                    dev_match = dev_df[dev_df["cihaz_id"].astype(str) == str(row_dict.get("cihaz_id", ""))]
+                    if not dev_match.empty:
+                        device_info = {k: ("" if str(v) == "nan" else str(v)) for k, v in dev_match.iloc[0].to_dict().items()}
+
+                pdf_bytes = generate_pdf(row_dict, device_row=device_info)
+                st.download_button(
+                    label="Download PDF Report",
+                    data=bytes(pdf_bytes),
+                    file_name=f"incident_report_{selected_id}.pdf",
+                    mime="application/pdf",
+                    key="m2_pdf_download",
+                )
+        else:
+            st.markdown(
+                "<div style='font-size:12px;color:#475569;'>No incidents available for export.</div>",
+                unsafe_allow_html=True,
+            )
 
     # ══════════════════════════════════════════════════════════════════
     # TAB 3 — Report New Incident
@@ -531,13 +835,20 @@ def render():
                     next_num = 1
                 new_id = f"INC-{next_num:03d}"
 
+                # Auto-determine status: Reported if within deadline, Overdue if past
+                reported_date = date.today()
+                mdr_days_val = get_days_from_ciddiyet(final_incident_type)
+                mdr_deadline_val = form_date + timedelta(days=mdr_days_val)
+                auto_status = "Reported" if reported_date <= mdr_deadline_val else "Overdue"
+
                 new_row = {
                     "olay_id": new_id,
                     "cihaz_id": final_device_id,
                     "ciddiyet": final_incident_type,
                     "olay_tarihi": form_date.strftime("%Y-%m-%d"),
-                    "deadline": form_deadline.strftime("%Y-%m-%d"),
-                    "durum": form_status,
+                    "raporlama_tarihi": reported_date.strftime("%Y-%m-%d"),
+                    "deadline": mdr_deadline_val.strftime("%Y-%m-%d"),
+                    "durum": auto_status,
                     "aciklama": description.strip(),
                     "raporlayan": reporter.strip(),
                     "lot_no": lot_number.strip(),
