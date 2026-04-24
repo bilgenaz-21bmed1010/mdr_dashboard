@@ -294,13 +294,9 @@ def show():
         # Filters row
         col_s0, col_s1, col_s2, col_s3 = st.columns([2, 1, 1, 1])
         with col_s0:
-            device_search = st.text_input("Search by Device Name", placeholder="Type device name...")
-            # Autocomplete suggestion
-            if device_search:
-                df_merged_tmp = df.merge(dev_df[["cihaz_id", "isim"]], on="cihaz_id", how="left")
-                matches = df_merged_tmp[df_merged_tmp["isim"].str.lower().str.contains(device_search.lower(), na=False)]["isim"].unique()
-                if len(matches) > 0:
-                    st.caption("Matching devices: " + " | ".join(matches[:5]))
+            all_device_names = ["All"] + sorted(dev_df["isim"].dropna().unique().tolist())
+            device_search_sel = st.selectbox("Search by Device Name", all_device_names, key="dev_overview_sel")
+            device_search = "" if device_search_sel == "All" else device_search_sel
         with col_s1:
             filter_coordinator = st.selectbox("Coordinator", ["All"] + sorted(df["sorumlu"].dropna().unique().tolist()))
         with col_s2:
@@ -331,7 +327,7 @@ def show():
         st.caption(f"Showing {len(filtered)} of {len(df)} FSCA records")
 
         display = filtered[[
-            "fsca_id", "Device", "mevcut_asama", "sorumlu", "durum", "FSN Deadline", "Target Closure", "Days Active"
+            "fsca_id", "Device", "konu", "mevcut_asama", "sorumlu", "durum", "FSN Deadline", "Target Closure", "Days Active"
         ]].rename(columns={
             "fsca_id":      "FSCA ID",
             "konu":         "Topic",
@@ -538,11 +534,7 @@ def show():
             col_n1, col_n2 = st.columns(2)
             with col_n1:
                 new_fsca_id = st.text_input("FSCA ID *", placeholder="e.g. FSCA-051")
-                device_input = st.text_input("Device *", placeholder="Type device name...")
-                matched_devices = dev_df[dev_df["isim"].str.lower().str.contains(device_input.lower(), na=False)] if device_input else dev_df
-                if device_input and not matched_devices.empty:
-                    st.caption("Matching: " + " | ".join(matched_devices["isim"].head(5).tolist()))
-                new_device = matched_devices["cihaz_id"].iloc[0] if not matched_devices.empty else dev_df["cihaz_id"].iloc[0]
+                new_device  = st.selectbox("Device *", dev_df["cihaz_id"].tolist())
                 new_stage_n = st.selectbox("Initial Stage *", STAGES)
             with col_n2:
                 new_resp   = st.text_input("Hospital Coordinator *", placeholder="e.g. Quality Manager")
