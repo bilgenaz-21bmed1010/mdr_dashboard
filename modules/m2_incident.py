@@ -306,7 +306,7 @@ def generate_pdf(row: dict, device_row: dict = None) -> bytes:
     section_title("3", "Incident Description  (Article 87/4)")
     pdf.set_font("Helvetica", "", 8)
     pdf.set_text_color(20, 20, 20)
-    pdf.multi_cell(0, 6, _safe(row.get("aciklama", "No description provided.")))
+    pdf.multi_cell(0, 6, _safe(row.get("aciklama", "No description provided.") or "No description provided."))
 
     # ── Section 4: Reporting Information ──────────────────────────
     section_title("4", "Reporting Information  (Article 87/1)")

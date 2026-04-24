@@ -1,101 +1,101 @@
 olay_id,cihaz_id,cihaz_adi,kategori,ciddiyet,deadline_gun,olay_tarihi,raporlama_tarihi,deadline,durum,raporlayan,aciklama
-INC-001,CIH-257,Mindray A7 Anesthesia Machine,Anesthesia Machine,Serious (Public Health Threat),10,2026-03-07,2026-03-23,2026-03-17,Overdue,Hem. Fatma Çelik,Solunum devresi bağlantısı gevşedi; hava kaçağı oldu.
-INC-002,CIH-253,Aestiva 5/7900,Anesthesia Machine,Serious (Hospitalization),30,2025-10-07,2025-10-11,2025-11-06,Closed,Dr. Selin Arslan,CO2 absorban tükenmesi alarmı gecikmeli çalıştı.
-INC-003,CIH-260,Spacelabs J,Anesthesia Machine,Non-Serious,90,2026-01-30,2026-02-03,2026-04-30,Reported,Dr. Selin Arslan,Güç kesintisinde batarya yedeği devreye girmedi.
-INC-004,CIH-323,Mepore Adhesive Dressing,Bandage / Wound Dressing,Serious (Life-threatening),15,2025-11-01,2025-11-22,2025-11-16,Overdue,Kalite Müd. Zeynep Şahin,Boyut standardı sapması tespit edildi; lot analizi yapıldı.
-INC-005,CIH-324,Cosmopor E Sterile,Bandage / Wound Dressing,Non-Serious,90,2025-10-16,2025-11-21,2026-01-14,Closed,Hem. Fatma Çelik,Yapışkan tabaka yara yatağından erken ayrıldı; kontaminasyon riski oluştu.
-INC-006,CIH-326,Comfeel Plus Transparent,Bandage / Wound Dressing,Non-Serious,90,2026-02-10,2026-03-14,2026-05-11,Reported,Hem. Fatma Çelik,Boyut standardı sapması tespit edildi; lot analizi yapıldı.
-INC-007,CIH-057,Lightspeed Pro 100,CT Scanner,Serious (Hospitalization),30,2026-04-07,2026-04-15,2026-05-07,Reported,Dr. Selin Arslan,Kontrast enjektör senkronizasyonu bozuldu.
-INC-008,CIH-060,Neuviz 64 In,CT Scanner,Serious (Hospitalization),30,2025-12-08,2025-12-13,2026-01-07,Closed,Dr. Deniz Koç,Hasta masası hareketi hatalı konumlandı; yeniden çekim gerekti.
-INC-009,CIH-055,Clave® Connector,CT Scanner,Serious (Life-threatening),15,2026-03-06,2026-03-27,2026-03-21,Overdue,Dr. Emre Kaya,Hasta masası hareketi hatalı konumlandı; yeniden çekim gerekti.
-INC-010,CIH-065,Tavi 26Mm Medtronic Pro+ Valve,Cardiac Valve Prosthesis,Non-Serious,90,2025-10-26,2025-11-09,2026-01-24,Closed,Hem. Serkan Doğan,Yaprak yorulma çatlağı tespit edildi; cihaz explante edildi.
-INC-011,CIH-068,Impella Cp,Cardiac Valve Prosthesis,Serious (Hospitalization),30,2026-02-04,2026-03-12,2026-03-06,Overdue,Hem. Elif Yıldız,Yaprak yorulma çatlağı tespit edildi; cihaz explante edildi.
-INC-012,CIH-067,On-X Prosthetic Aortic Heart Valve,Cardiac Valve Prosthesis,Serious (Hospitalization),30,2026-01-16,2026-02-21,2026-02-15,Overdue,Kalite Müd. Zeynep Şahin,Kapak trombozu şüphesi; antikoagülan tedavi düzenlendi.
-INC-013,CIH-084,Ba210 Abutment 5.5Mm For Flange Fixture,Cochlear Implant,Serious (Hospitalization),30,2025-10-22,2025-11-20,2025-11-21,Closed,Dr. Pınar Çetin,Ses işlemci pili beklenenden hızlı bitti.
-INC-014,CIH-089,Cochlear Implant,Cochlear Implant,Serious (Life-threatening),15,2026-01-17,2026-02-06,2026-02-01,Overdue,Dr. Ahmet Yılmaz,Harici mikrofondan gürültü sızması raporlandı.
-INC-015,CIH-087,Cochlear Nucleus Implants,Cochlear Implant,Serious (Hospitalization),30,2026-02-25,2026-03-28,2026-03-27,Overdue,Dr. Emre Kaya,İşlemci yazılımı güncelleme sonrası başlatılamadı.
-INC-016,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Non-Serious,90,2026-01-17,2026-04-22,2026-04-17,Overdue,Dr. Selin Arslan,Pil tükenmesi alarmı gecikmeli tetiklendi.
-INC-017,CIH-019,Philips HeartStart MRx,Defibrillator,Non-Serious,90,2026-02-07,2026-04-03,2026-05-08,Under Investigation,Dr. Burak Şen,Enerji iletimi sırasında hatalı doz uygulandı; hasta stabilize edildi.
-INC-018,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Non-Serious,90,2026-03-06,2026-03-11,2026-06-04,Reported,Hem. Fatma Çelik,Prob bağlantısı yetersizdi; defibrilasyon başarısız oldu.
-INC-019,CIH-172,Philips M2601B S01 Ecg Telemetry Transmitter,ECG Monitor,Serious (Hospitalization),30,2026-03-27,2026-03-28,2026-04-26,Reported,Dr. Ahmet Yılmaz,Elektrot temas kalitesi düşüklüğü nedeniyle baseline drift oluştu.
-INC-020,CIH-173,Arrow Ac3 Optimus Iabp Na/Emea,ECG Monitor,Serious (Public Health Threat),10,2026-01-28,2026-02-08,2026-02-07,Overdue,Kalite Müd. Zeynep Şahin,Monitör pil kapasitesi aniden düştü; kayıt kesintiye uğradı.
-INC-021,CIH-176,Lifevest Wcd 4000 System,ECG Monitor,Non-Serious,90,2025-12-20,2026-03-22,2026-03-20,Overdue,Biyomed. Müh. Can Öztürk,Kablosuz veri iletiminde gecikme yaşandı.
-INC-022,CIH-240,Infinity Acute Care System (M540),ECMO System,Serious (Public Health Threat),10,2025-12-13,2025-12-17,2025-12-23,Closed,Kalite Müd. Zeynep Şahin,Devre içi hava baloncuğu tespit edildi; sistem durduruldu.
-INC-023,CIH-232,Turnpike Lp 135Cm,ECMO System,Non-Serious,90,2025-11-17,2026-01-21,2026-02-15,Closed,Hem. Elif Yıldız,Oksijeneratörde gaz değişim kapasitesi azaldı.
-INC-024,CIH-233,Nxstage,ECMO System,Serious (Hospitalization),30,2025-11-09,2025-12-14,2025-12-09,Overdue,Hem. Fatma Çelik,Pompa hızı ani düştü; kan akışı kesintiye uğradı.
-INC-025,CIH-161,Cdmn Electrosurgical Unit Only,Electrosurgical Unit,Serious (Hospitalization),30,2025-11-17,2025-12-18,2025-12-17,Overdue,Kalite Müd. Zeynep Şahin,Pedal kontrolü yanıtsız kaldı; manuel aktivasyon gerekti.
-INC-026,CIH-163,Acusnare Polypectomy Snare,Electrosurgical Unit,Serious (Life-threatening),15,2026-02-15,2026-02-24,2026-03-02,Closed,Biyomed. Müh. Can Öztürk,Yanlış mod seçimi nedeniyle doku hasarı meydana geldi.
-INC-027,CIH-163,Acusnare Polypectomy Snare,Electrosurgical Unit,Non-Serious,90,2025-10-26,2025-11-21,2026-01-24,Closed,Hem. Serkan Doğan,Güç çıkışı istikrarsızlaştı; koagülasyon etkinliği azaldı.
-INC-028,CIH-275,Pentax EG-3490K Gastroscope,Endoscope,Serious (Hospitalization),30,2026-03-30,2026-04-22,2026-04-29,Under Investigation,Dr. Deniz Koç,Bükülme mekanizması kilitlendi; endoskop çıkarılamadı.
-INC-029,CIH-277,1588 AIM Camera System,Endoscope,Serious (Hospitalization),30,2026-01-17,2026-02-22,2026-02-16,Overdue,Dr. Deniz Koç,Bükülme mekanizması kilitlendi; endoskop çıkarılamadı.
-INC-030,CIH-273,ELUXEO 7000 Endoscope,Endoscope,Serious (Public Health Threat),10,2026-03-16,2026-03-25,2026-03-26,Closed,Hem. Fatma Çelik,İşlem kanalında perforasyon tespit edildi.
-INC-031,CIH-309,Pentax,Examination Light,Serious (Hospitalization),30,2025-11-03,2025-11-17,2025-12-03,Closed,Hem. Fatma Çelik,Işık açısı ayar mekanizması kilitlendi.
-INC-032,CIH-304,Visera Pro Xenon Light Source,Examination Light,Serious (Hospitalization),30,2025-12-31,2026-01-08,2026-01-30,Closed,Dr. Emre Kaya,Kablo izolasyonunda hasar tespit edildi; elektrik güvenlik riski değerlendirildi.
-INC-033,CIH-304,Visera Pro Xenon Light Source,Examination Light,Non-Serious,90,2025-11-25,2026-01-22,2026-02-23,Closed,Dr. Burak Şen,Güç adaptörü arızası nedeniyle muayene yarıda kesildi.
-INC-034,CIH-041,Abbott FreeStyle Libre 2,Glucose Meter,Serious (Hospitalization),30,2026-01-23,2026-02-11,2026-02-22,Closed,Biyomed. Müh. Can Öztürk,Kod hataları nedeniyle cihaz çalışmadı.
-INC-035,CIH-043,Medtronic Guardian 4,Glucose Meter,Serious (Hospitalization),30,2025-10-19,2025-10-28,2025-11-18,Closed,Dr. Selin Arslan,Yanlış kalibrasyon nedeniyle hatalı glukoz değeri ölçüldü.
-INC-036,CIH-044,Dexcom G6 CGM System,Glucose Meter,Serious (Life-threatening),15,2026-03-07,2026-03-20,2026-03-22,Closed,Hem. Fatma Çelik,Sıcaklık dışı ortamda kullanım hatalı sonuç verdi.
-INC-037,CIH-140,Baxter Ak98 Hemodialysis Macine,Hemodialysis Machine,Serious (Hospitalization),30,2026-01-13,2026-02-19,2026-02-12,Overdue,Dr. Burak Şen,UF kontrolü hedef değerden saptı; hasta sıvı dengesi etkilendi.
-INC-038,CIH-135,Tablo Hemodialysis System,Hemodialysis Machine,Serious (Hospitalization),30,2026-02-25,2026-02-26,2026-03-27,Closed,Dr. Mehmet Akar,Membran sızıntısı tespit edildi; diyalizer değiştirildi.
-INC-039,CIH-132,2008K Hemodialysis Machine,Hemodialysis Machine,Serious (Public Health Threat),10,2025-11-08,2025-11-11,2025-11-18,Closed,Dr. Emre Kaya,Hava dedektörü yanıt vermedi; emboli riski değerlendirildi.
-INC-040,CIH-005,BD Alaris PK,Infusion Pump,Serious (Life-threatening),15,2026-01-20,2026-02-01,2026-02-04,Closed,Dr. Mehmet Akar,Akış hızı hedef değerden %15 saptı; hasta dozaj hatası riskiyle karşılaştı.
-INC-041,CIH-004,ICU Medical Plum 360,Infusion Pump,Serious (Life-threatening),15,2026-03-17,2026-04-05,2026-04-01,Overdue,Biyomed. Müh. Can Öztürk,Pil kapasitesi ani düşüş gösterdi; cihaz uyarısız kapandı.
-INC-042,CIH-001,Fresenius Kabi Agilia SP,Infusion Pump,Serious (Life-threatening),15,2026-03-18,2026-04-05,2026-04-02,Overdue,Kalite Müd. Zeynep Şahin,Pompa yazılımı dondu; manuel müdahale gerekti.
-INC-043,CIH-148,640G Insulin Pump Mmt-1711K H,Insulin Pump,Serious (Hospitalization),30,2025-12-20,2025-12-29,2026-01-19,Closed,Biyomed. Müh. Can Öztürk,Kanül ayrılması tespit edilemedi; insülin deri altına verilmedi.
-INC-044,CIH-143,640G Insulin Pump,Insulin Pump,Serious (Life-threatening),15,2026-03-21,2026-04-07,2026-04-05,Overdue,Dr. Burak Şen,Kanül ayrılması tespit edilemedi; insülin deri altına verilmedi.
-INC-045,CIH-150,Pump Mmt-1711Kl 640G V4.10 Bk Sf Mm,Insulin Pump,Non-Serious,90,2026-01-24,2026-02-21,2026-04-24,Reported,Dr. Pınar Çetin,Oklüzyon alarmı gecikmeli çalıştı; hipoglisemi riski oluştu.
-INC-046,CIH-195,Xn-10,Laboratory Analyzer,Serious (Hospitalization),30,2026-04-10,2026-05-05,2026-05-10,Under Investigation,Hem. Murat Demir,Numune taşıma sistemi sıkıştı; analiz gecikmesi yaşandı.
-INC-047,CIH-195,Xn-10,Laboratory Analyzer,Non-Serious,90,2025-11-02,2025-12-16,2026-01-31,Closed,Dr. Selin Arslan,Yanlış kalibrasyon sonucu referans dışı sonuçlar üretildi.
-INC-048,CIH-192,Au680 Chemistry Analyzer,Laboratory Analyzer,Serious (Life-threatening),15,2026-02-13,2026-03-01,2026-02-28,Overdue,Dr. Ahmet Yılmaz,Yanlış kalibrasyon sonucu referans dışı sonuçlar üretildi.
-INC-049,CIH-079,Temperature-Sensing Foley Catheter,MRI System,Non-Serious,90,2026-01-31,2026-02-12,2026-05-01,Reported,Dr. Pınar Çetin,Yazılım hatası nedeniyle tarama protokolü yanlış uygulandı.
-INC-050,CIH-071,Surescan,MRI System,Serious (Life-threatening),15,2026-01-28,2026-02-16,2026-02-12,Overdue,Dr. Mehmet Akar,Hasta masası titreşimi artefakt oluşturdu.
-INC-051,CIH-075,Nalu Neurostimulation System,MRI System,Serious (Life-threatening),15,2026-03-15,2026-03-31,2026-03-30,Overdue,Kalite Müd. Zeynep Şahin,Yazılım hatası nedeniyle tarama protokolü yanlış uygulandı.
-INC-052,CIH-032,DePuy Synthes Pinnacle Hip,Orthopedic Implant,Non-Serious,90,2025-12-02,2026-01-17,2026-03-02,Closed,Dr. Pınar Çetin,Vida kırılması nedeniyle revizyon cerrahisi planlandı.
-INC-053,CIH-033,Stryker Tritanium PL Cage,Orthopedic Implant,Serious (Hospitalization),30,2025-11-25,2026-01-01,2025-12-25,Overdue,Dr. Ahmet Yılmaz,Eklem instabilitesi raporlandı; implant pozisyonu değerlendirildi.
-INC-054,CIH-035,Exactech Connexion GXL Hip,Orthopedic Implant,Serious (Life-threatening),15,2026-01-22,2026-01-28,2026-02-06,Closed,Dr. Selin Arslan,Metal iyon seviyeleri referans üstüne çıktı; takip başlatıldı.
-INC-055,CIH-270,Azure Xt Dr Mri Surescan Pacemaker,Pacemaker/ICD,Non-Serious,90,2025-10-25,2026-01-11,2026-01-23,Closed,Dr. Mehmet Akar,Pace atımı iletilmedi; hasta senkop geçirdi.
-INC-056,CIH-268,Petite,Pacemaker/ICD,Serious (Public Health Threat),10,2025-10-31,2025-11-05,2025-11-10,Closed,Dr. Ahmet Yılmaz,Elektromanyetik interferans sonucu cihaz inhibisyonu yaşandı.
-INC-057,CIH-266,Identity Xl Dr,Pacemaker/ICD,Serious (Hospitalization),30,2026-02-18,2026-03-16,2026-03-20,Closed,Dr. Ahmet Yılmaz,Elektrot dislokasyonu tespit edildi; yeniden yerleştirme gerekti.
-INC-058,CIH-024,GE Carescape B650,Patient Monitor,Serious (Life-threatening),15,2025-12-29,2025-12-30,2026-01-13,Closed,Dr. Pınar Çetin,Ekran donması yaşandı; hasta verileri izlenemedi.
-INC-059,CIH-027,Schiller Argus Pro,Patient Monitor,Non-Serious,90,2026-01-25,2026-03-25,2026-04-25,Under Investigation,Hem. Murat Demir,SpO2 ve EKG senkronizasyonu bozuldu.
-INC-060,CIH-023,Philips IntelliVue MX450,Patient Monitor,Serious (Life-threatening),15,2026-02-01,2026-02-10,2026-02-16,Closed,Hem. Serkan Doğan,Ekran donması yaşandı; hasta verileri izlenemedi.
-INC-061,CIH-247,Bililux Phototherapy Light G,Phototherapy System,Serious (Hospitalization),30,2026-04-10,2026-04-14,2026-05-10,Reported,Dr. Pınar Çetin,LED yoğunluğu düşüşü nedeniyle fototerapi etkinliği azaldı.
-INC-062,CIH-243,Bililux Phototherapy Light C,Phototherapy System,Non-Serious,90,2026-03-23,2026-05-11,2026-06-21,Under Investigation,Biyomed. Müh. Can Öztürk,Irradiyans ölçümü referans değerin altında kaldı.
-INC-063,CIH-249,Pharos Excimer Laser System I,Phototherapy System,Non-Serious,90,2025-12-05,2025-12-16,2026-03-05,Closed,Dr. Deniz Koç,LED yoğunluğu düşüşü nedeniyle fototerapi etkinliği azaldı.
-INC-064,CIH-096,Wound Vac Therapy System,Pulse Oximeter,Serious (Hospitalization),30,2025-11-04,2025-12-09,2025-12-04,Overdue,Biyomed. Müh. Can Öztürk,Periferik dolaşım bozukluğunda cihaz değer üretemedi.
-INC-065,CIH-100,Aqua K Pad,Pulse Oximeter,Serious (Hospitalization),30,2026-01-16,2026-01-26,2026-02-15,Closed,Hem. Elif Yıldız,Hareket artefaktı nedeniyle SpO2 okuması güvenilmez bulundu.
-INC-066,CIH-095,Interstim Ii,Pulse Oximeter,Serious (Public Health Threat),10,2026-02-15,2026-03-04,2026-02-25,Overdue,Dr. Ayşe Demir,Prob ısınması dermal irritasyona yol açtı.
-INC-067,CIH-125,Boston Scientific Spinal Cord Stimulator,Spinal Implant,Serious (Life-threatening),15,2026-02-10,2026-02-21,2026-02-25,Closed,Kalite Müd. Zeynep Şahin,Korrozyon bulgusu tespit edildi; explantasyon yapıldı.
-INC-068,CIH-128,Boston Scientific Spinal Cord System,Spinal Implant,Non-Serious,90,2026-04-10,2026-06-29,2026-07-09,Under Investigation,Hem. Serkan Doğan,Vida gevşemesi tespit edildi; revizyonu cerrahi planlandı.
-INC-069,CIH-127,Nevro Spinal Cord Stimulator,Spinal Implant,Serious (Hospitalization),30,2025-10-02,2025-11-08,2025-11-01,Overdue,Hem. Elif Yıldız,Vida gevşemesi tespit edildi; revizyonu cerrahi planlandı.
-INC-070,CIH-218,Surpass Evolve 4.0Mm X 15Mm - Pmas,Stent System,Serious (Hospitalization),30,2025-12-29,2026-01-31,2026-01-28,Overdue,Dr. Deniz Koç,Kaplama tabakasında laminasyon hatası tespit edildi.
-INC-071,CIH-212,Synergy Ii Everolimus-Eluting Platinum Chromium Co,Stent System,Serious (Life-threatening),15,2025-10-10,2025-10-30,2025-10-25,Overdue,Dr. Ayşe Demir,Balon kateter beklenenden erken patladı.
-INC-072,CIH-219,Relay Thoracic Stent-Graft With Plus Delivery Syst,Stent System,Serious (Life-threatening),15,2026-02-06,2026-02-23,2026-02-21,Overdue,Biyomed. Müh. Can Öztürk,Stent migrasyonu gözlemlendi; ek müdahale gerekti.
-INC-073,CIH-319,Bci,Stethoscope,Serious (Hospitalization),30,2026-03-29,2026-04-21,2026-04-28,Reported,Hem. Elif Yıldız,Sterilizasyon sonrası tüp sertleşmesi hareket kabiliyetini kısıtladı.
-INC-074,CIH-316,Vela Ventilator,Stethoscope,Non-Serious,90,2025-12-08,2025-12-17,2026-03-08,Closed,Hem. Murat Demir,Diyafram bütünlüğü bozuldu; oskültasyon kalitesi düştü.
-INC-075,CIH-316,Vela Ventilator,Stethoscope,Serious (Life-threatening),15,2025-12-30,2025-12-31,2026-01-14,Closed,Dr. Selin Arslan,Sterilizasyon sonrası tüp sertleşmesi hareket kabiliyetini kısıtladı.
-INC-076,CIH-201,Endoscpc Cann.Drl.Bit 4.5 Strl,Surgical Drill,Serious (Public Health Threat),10,2026-01-14,2026-01-18,2026-01-24,Closed,Kalite Müd. Gül Arslan,Devir hızı kontrolü yanıt vermedi; doku hasarı riski oluştu.
-INC-077,CIH-208,1.1Mm Wire Pass Drill Bit Medium,Surgical Drill,Serious (Life-threatening),15,2026-01-29,2026-02-11,2026-02-13,Closed,Dr. Ahmet Yılmaz,Devir hızı kontrolü yanıt vermedi; doku hasarı riski oluştu.
-INC-078,CIH-210,Flexible Drill Shaft Ic,Surgical Drill,Non-Serious,90,2026-03-15,2026-04-22,2026-06-13,Under Investigation,Dr. Burak Şen,Matkap ucu kırıldı; kırık parça cerrahi sahada kaldı.
-INC-079,CIH-300,3611 Lite Glove,Surgical Glove,Serious (Hospitalization),30,2026-02-19,2026-02-22,2026-03-21,Closed,Dr. Pınar Çetin,Handsize uyumsuzluğu nedeniyle yırtılma meydana geldi.
-INC-080,CIH-292,Pack Minor Lithotomy,Surgical Glove,Non-Serious,90,2025-10-05,2025-11-04,2026-01-03,Closed,Hem. Serkan Doğan,Toz içeriği reaksiyona yol açtı; şikayet raporlandı.
-INC-081,CIH-296,Henry Schein,Surgical Glove,Serious (Life-threatening),15,2025-12-04,2025-12-18,2025-12-19,Closed,Dr. Emre Kaya,Handsize uyumsuzluğu nedeniyle yırtılma meydana geldi.
-INC-082,CIH-186,Endowrist,Surgical Robot,Non-Serious,90,2026-04-06,2026-04-19,2026-07-05,Reported,Dr. Ahmet Yılmaz,Yazılım hatası nedeniyle sistem beklenmedik şekilde durdu.
-INC-083,CIH-186,Endowrist,Surgical Robot,Serious (Hospitalization),30,2026-03-23,2026-04-05,2026-04-22,Reported,Hem. Murat Demir,Robot kolu hareketi sırasında beklenmedik titreme gözlemlendi.
-INC-084,CIH-181,Da Vinci Surgical System,Surgical Robot,Serious (Public Health Threat),10,2025-12-09,2025-12-22,2025-12-19,Overdue,Hem. Serkan Doğan,Vizyon sistemi kalibrasyonu kaybedildi; görüntü bozuldu.
-INC-085,CIH-152,Covidien Curved Stapler,Surgical Stapler,Serious (Hospitalization),30,2025-11-14,2025-12-18,2025-12-14,Overdue,Kalite Müd. Gül Arslan,Zımba hattı tam kapanmadı; anastomoz kaçağı riski oluştu.
-INC-086,CIH-158,Surgical Stapler,Surgical Stapler,Non-Serious,90,2026-03-26,2026-06-16,2026-06-24,Under Investigation,Dr. Ayşe Demir,Cihaz beklenmedik şekilde iki kez ateşlendi; doku hasarı oluştu.
-INC-087,CIH-157,Intuitive Surgical Davinci 45Mm Stapler,Surgical Stapler,Serious (Public Health Threat),10,2026-03-29,2026-04-15,2026-04-08,Overdue,Dr. Ahmet Yılmaz,Cihaz beklenmedik şekilde iki kez ateşlendi; doku hasarı oluştu.
-INC-088,CIH-284,1Lyrtr 16Fr10Ml100% Siltmp Snp,Thermometer,Serious (Public Health Threat),10,2026-02-18,2026-02-24,2026-02-28,Closed,Dr. Burak Şen,Kızılötesi sensör kirliği nedeniyle düşük değer ölçüldü.
-INC-089,CIH-289,Mon-A-Therm,Thermometer,Serious (Life-threatening),15,2025-11-26,2025-12-13,2025-12-11,Overdue,Dr. Emre Kaya,Ortam sıcaklığı etkisi ölçümü bozdu.
-INC-090,CIH-282,Pro 6000 W/Small Cradle,Thermometer,Serious (Public Health Threat),10,2025-11-06,2025-11-19,2025-11-16,Overdue,Dr. Selin Arslan,Kızılötesi sensör kirliği nedeniyle düşük değer ölçüldü.
-INC-091,CIH-338,Medpride Sterile Tongue Blade,Tongue Depressor,Serious (Hospitalization),30,2026-04-10,2026-04-22,2026-05-10,Reported,Biyomed. Müh. Can Öztürk,Ahşap yüzeyde çapak tespit edildi; oral mukoza hasarı raporlandı.
-INC-092,CIH-333,Sterile Tongue Blade,Tongue Depressor,Serious (Life-threatening),15,2026-01-29,2026-02-15,2026-02-13,Overdue,Hem. Murat Demir,Ürün boyutunda tutarsızlık tespit edildi.
-INC-093,CIH-223,Acuson P500 Ultrasound System,Ultrasound System,Serious (Life-threatening),15,2026-03-01,2026-03-12,2026-03-16,Closed,Dr. Burak Şen,Görüntü kalitesi düşüşü nedeniyle tanı gecikti.
-INC-094,CIH-225,Ilab Ultrasound Imaging System,Ultrasound System,Non-Serious,90,2025-12-16,2026-01-20,2026-03-16,Closed,Dr. Ayşe Demir,Transduser kılıfında mikroçatlak tespit edildi.
-INC-095,VEN-001,Maquet Servo-U Ventilator,Ventilator,Serious (Life-threatening),15,2026-01-29,2026-02-10,2026-02-13,Closed,Dr. Ahmet Yılmaz,Solunum devresi bağlantısı gevşedi; hava kaçağı oluştu.
-INC-096,VEN-001,Maquet Servo-U Ventilator,Ventilator,Serious (Life-threatening),15,2026-02-26,2026-03-09,2026-03-13,Closed,Dr. Deniz Koç,Tidal hacim sapması gözlemlendi; klinisyen manuel ayarlama yaptı.
-INC-097,CIH-102,Nellcor,Wound Care System,Serious (Life-threatening),15,2025-12-24,2026-01-14,2026-01-08,Overdue,Dr. Ahmet Yılmaz,Sızıntı alarmı gecikmeli tetiklendi; yara bölgesi etkilendi.
-INC-098,CIH-102,Nellcor,Wound Care System,Serious (Life-threatening),15,2025-12-23,2026-01-08,2026-01-07,Overdue,Hem. Fatma Çelik,Sızıntı alarmı gecikmeli tetiklendi; yara bölgesi etkilendi.
-INC-099,CIH-116,O-Arm O2 Imaging System,X-Ray System,Serious (Life-threatening),15,2026-01-23,2026-02-02,2026-02-07,Closed,Kalite Müd. Gül Arslan,Dijital görüntü aktarımı başarısız oldu.
-INC-100,CIH-112,Axiom Artis Dfc,X-Ray System,Non-Serious,90,2025-10-12,2026-01-16,2026-01-10,Overdue,Hem. Fatma Çelik,Tüp akımı stabilitesi bozuldu; görüntü kalitesi etkilendi.
+INC-001,CIH-257,Mindray A7 Anesthesia Machine,Anesthesia Machine,Serious (Public Health Threat),10,2026-03-07,2026-03-23,2026-03-17,Overdue,Hem. Fatma Çelik,Breathing circuit connection loosened; air leak occurred.
+INC-002,CIH-253,Aestiva 5/7900,Anesthesia Machine,Serious (Hospitalization),30,2025-10-07,2025-10-11,2025-11-06,Closed,Dr. Selin Arslan,CO2 absorber depletion alarm triggered with delay.
+INC-003,CIH-260,Spacelabs J,Anesthesia Machine,Non-Serious,90,2026-01-30,2026-02-03,2026-04-30,Reported,Dr. Selin Arslan,Battery backup failed to activate during power outage.
+INC-004,CIH-323,Mepore Adhesive Dressing,Bandage / Wound Dressing,Serious (Life-threatening),15,2025-11-01,2025-11-22,2025-11-16,Overdue,Kalite Müd. Zeynep Şahin,Dimensional deviation detected; lot analysis performed.
+INC-005,CIH-324,Cosmopor E Sterile,Bandage / Wound Dressing,Non-Serious,90,2025-10-16,2025-11-21,2026-01-14,Closed,Hem. Fatma Çelik,Adhesive layer detached prematurely; contamination risk identified.
+INC-006,CIH-326,Comfeel Plus Transparent,Bandage / Wound Dressing,Non-Serious,90,2026-02-10,2026-03-14,2026-05-11,Reported,Hem. Fatma Çelik,Dimensional deviation detected; lot analysis performed.
+INC-007,CIH-057,Lightspeed Pro 100,CT Scanner,Serious (Hospitalization),30,2026-04-07,2026-04-15,2026-05-07,Reported,Dr. Selin Arslan,Contrast injector synchronization failure reported.
+INC-008,CIH-060,Neuviz 64 In,CT Scanner,Serious (Hospitalization),30,2025-12-08,2025-12-13,2026-01-07,Closed,Dr. Deniz Koç,Patient table mispositioned; repeat imaging required.
+INC-009,CIH-055,Clave® Connector,CT Scanner,Serious (Life-threatening),15,2026-03-06,2026-03-27,2026-03-21,Overdue,Dr. Emre Kaya,Patient table mispositioned; repeat imaging required.
+INC-010,CIH-065,Tavi 26Mm Medtronic Pro+ Valve,Cardiac Valve Prosthesis,Non-Serious,90,2025-10-26,2025-11-09,2026-01-24,Closed,Hem. Serkan Doğan,Fatigue fracture detected in leaflet; device explanted.
+INC-011,CIH-068,Impella Cp,Cardiac Valve Prosthesis,Serious (Hospitalization),30,2026-02-04,2026-03-12,2026-03-06,Overdue,Hem. Elif Yıldız,Fatigue fracture detected in leaflet; device explanted.
+INC-012,CIH-067,On-X Prosthetic Aortic Heart Valve,Cardiac Valve Prosthesis,Serious (Hospitalization),30,2026-01-16,2026-02-21,2026-02-15,Overdue,Kalite Müd. Zeynep Şahin,Valve thrombosis suspected; anticoagulant therapy initiated.
+INC-013,CIH-084,Ba210 Abutment 5.5Mm For Flange Fixture,Cochlear Implant,Serious (Hospitalization),30,2025-10-22,2025-11-20,2025-11-21,Closed,Dr. Pınar Çetin,Sound processor battery depleted faster than expected.
+INC-014,CIH-089,Cochlear Implant,Cochlear Implant,Serious (Life-threatening),15,2026-01-17,2026-02-06,2026-02-01,Overdue,Dr. Ahmet Yılmaz,Noise interference from external microphone reported.
+INC-015,CIH-087,Cochlear Nucleus Implants,Cochlear Implant,Serious (Hospitalization),30,2026-02-25,2026-03-28,2026-03-27,Overdue,Dr. Emre Kaya,Processor software failed to boot after update.
+INC-016,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Non-Serious,90,2026-01-17,2026-04-22,2026-04-17,Overdue,Dr. Selin Arslan,Battery depletion alarm triggered with delay.
+INC-017,CIH-019,Philips HeartStart MRx,Defibrillator,Non-Serious,90,2026-02-07,2026-04-03,2026-05-08,Under Investigation,Dr. Burak Şen,Incorrect dose delivered during energy transfer; patient stabilized.
+INC-018,CIH-018,Stryker LIFEPAK 1000,Defibrillator,Non-Serious,90,2026-03-06,2026-03-11,2026-06-04,Reported,Hem. Fatma Çelik,Inadequate probe contact; defibrillation unsuccessful.
+INC-019,CIH-172,Philips M2601B S01 Ecg Telemetry Transmitter,ECG Monitor,Serious (Hospitalization),30,2026-03-27,2026-03-28,2026-04-26,Reported,Dr. Ahmet Yılmaz,Poor electrode contact quality caused baseline drift.
+INC-020,CIH-173,Arrow Ac3 Optimus Iabp Na/Emea,ECG Monitor,Serious (Public Health Threat),10,2026-01-28,2026-02-08,2026-02-07,Overdue,Kalite Müd. Zeynep Şahin,Monitor battery capacity dropped suddenly; recording interrupted.
+INC-021,CIH-176,Lifevest Wcd 4000 System,ECG Monitor,Non-Serious,90,2025-12-20,2026-03-22,2026-03-20,Overdue,Biyomed. Müh. Can Öztürk,Delay observed in wireless data transmission.
+INC-022,CIH-240,Infinity Acute Care System (M540),ECMO System,Serious (Public Health Threat),10,2025-12-13,2025-12-17,2025-12-23,Closed,Kalite Müd. Zeynep Şahin,Air bubble detected in circuit; system halted.
+INC-023,CIH-232,Turnpike Lp 135Cm,ECMO System,Non-Serious,90,2025-11-17,2026-01-21,2026-02-15,Closed,Hem. Elif Yıldız,Gas exchange capacity of oxygenator reduced.
+INC-024,CIH-233,Nxstage,ECMO System,Serious (Hospitalization),30,2025-11-09,2025-12-14,2025-12-09,Overdue,Hem. Fatma Çelik,Pump speed dropped suddenly; blood flow interrupted.
+INC-025,CIH-161,Cdmn Electrosurgical Unit Only,Electrosurgical Unit,Serious (Hospitalization),30,2025-11-17,2025-12-18,2025-12-17,Overdue,Kalite Müd. Zeynep Şahin,Foot pedal unresponsive; manual activation required.
+INC-026,CIH-163,Acusnare Polypectomy Snare,Electrosurgical Unit,Serious (Life-threatening),15,2026-02-15,2026-02-24,2026-03-02,Closed,Biyomed. Müh. Can Öztürk,Incorrect mode selection resulted in tissue damage.
+INC-027,CIH-163,Acusnare Polypectomy Snare,Electrosurgical Unit,Non-Serious,90,2025-10-26,2025-11-21,2026-01-24,Closed,Hem. Serkan Doğan,Power output became unstable; coagulation efficacy reduced.
+INC-028,CIH-275,Pentax EG-3490K Gastroscope,Endoscope,Serious (Hospitalization),30,2026-03-30,2026-04-22,2026-04-29,Under Investigation,Dr. Deniz Koç,Bending mechanism locked; endoscope could not be removed.
+INC-029,CIH-277,1588 AIM Camera System,Endoscope,Serious (Hospitalization),30,2026-01-17,2026-02-22,2026-02-16,Overdue,Dr. Deniz Koç,Bending mechanism locked; endoscope could not be removed.
+INC-030,CIH-273,ELUXEO 7000 Endoscope,Endoscope,Serious (Public Health Threat),10,2026-03-16,2026-03-25,2026-03-26,Closed,Hem. Fatma Çelik,Perforation detected in working channel.
+INC-031,CIH-309,Pentax,Examination Light,Serious (Hospitalization),30,2025-11-03,2025-11-17,2025-12-03,Closed,Hem. Fatma Çelik,Light angle adjustment mechanism locked.
+INC-032,CIH-304,Visera Pro Xenon Light Source,Examination Light,Serious (Hospitalization),30,2025-12-31,2026-01-08,2026-01-30,Closed,Dr. Emre Kaya,Cable insulation damage detected; electrical safety risk assessed.
+INC-033,CIH-304,Visera Pro Xenon Light Source,Examination Light,Non-Serious,90,2025-11-25,2026-01-22,2026-02-23,Closed,Dr. Burak Şen,Power adapter failure interrupted examination.
+INC-034,CIH-041,Abbott FreeStyle Libre 2,Glucose Meter,Serious (Hospitalization),30,2026-01-23,2026-02-11,2026-02-22,Closed,Biyomed. Müh. Can Öztürk,Device failed to operate due to software errors.
+INC-035,CIH-043,Medtronic Guardian 4,Glucose Meter,Serious (Hospitalization),30,2025-10-19,2025-10-28,2025-11-18,Closed,Dr. Selin Arslan,Incorrect glucose reading due to calibration error.
+INC-036,CIH-044,Dexcom G6 CGM System,Glucose Meter,Serious (Life-threatening),15,2026-03-07,2026-03-20,2026-03-22,Closed,Hem. Fatma Çelik,Use outside temperature range produced inaccurate results.
+INC-037,CIH-140,Baxter Ak98 Hemodialysis Macine,Hemodialysis Machine,Serious (Hospitalization),30,2026-01-13,2026-02-19,2026-02-12,Overdue,Dr. Burak Şen,UF control deviated from target; patient fluid balance affected.
+INC-038,CIH-135,Tablo Hemodialysis System,Hemodialysis Machine,Serious (Hospitalization),30,2026-02-25,2026-02-26,2026-03-27,Closed,Dr. Mehmet Akar,Membrane leak detected; dialyzer replaced.
+INC-039,CIH-132,2008K Hemodialysis Machine,Hemodialysis Machine,Serious (Public Health Threat),10,2025-11-08,2025-11-11,2025-11-18,Closed,Dr. Emre Kaya,Air detector unresponsive; embolism risk assessed.
+INC-040,CIH-005,BD Alaris PK,Infusion Pump,Serious (Life-threatening),15,2026-01-20,2026-02-01,2026-02-04,Closed,Dr. Mehmet Akar,Flow rate deviated 15% from target; patient faced dosing error risk.
+INC-041,CIH-004,ICU Medical Plum 360,Infusion Pump,Serious (Life-threatening),15,2026-03-17,2026-04-05,2026-04-01,Overdue,Biyomed. Müh. Can Öztürk,Battery capacity dropped suddenly; device shut down without warning.
+INC-042,CIH-001,Fresenius Kabi Agilia SP,Infusion Pump,Serious (Life-threatening),15,2026-03-18,2026-04-05,2026-04-02,Overdue,Kalite Müd. Zeynep Şahin,Pump software froze; manual intervention required.
+INC-043,CIH-148,640G Insulin Pump Mmt-1711K H,Insulin Pump,Serious (Hospitalization),30,2025-12-20,2025-12-29,2026-01-19,Closed,Biyomed. Müh. Can Öztürk,Cannula dislodgement undetected; insulin not delivered subcutaneously.
+INC-044,CIH-143,640G Insulin Pump,Insulin Pump,Serious (Life-threatening),15,2026-03-21,2026-04-07,2026-04-05,Overdue,Dr. Burak Şen,Cannula dislodgement undetected; insulin not delivered subcutaneously.
+INC-045,CIH-150,Pump Mmt-1711Kl 640G V4.10 Bk Sf Mm,Insulin Pump,Non-Serious,90,2026-01-24,2026-02-21,2026-04-24,Reported,Dr. Pınar Çetin,Occlusion alarm triggered with delay; hypoglycemia risk identified.
+INC-046,CIH-195,Xn-10,Laboratory Analyzer,Serious (Hospitalization),30,2026-04-10,2026-05-05,2026-05-10,Under Investigation,Hem. Murat Demir,Sample transport system jammed; analysis delayed.
+INC-047,CIH-195,Xn-10,Laboratory Analyzer,Non-Serious,90,2025-11-02,2025-12-16,2026-01-31,Closed,Dr. Selin Arslan,Incorrect calibration produced out-of-range results.
+INC-048,CIH-192,Au680 Chemistry Analyzer,Laboratory Analyzer,Serious (Life-threatening),15,2026-02-13,2026-03-01,2026-02-28,Overdue,Dr. Ahmet Yılmaz,Incorrect calibration produced out-of-range results.
+INC-049,CIH-079,Temperature-Sensing Foley Catheter,MRI System,Non-Serious,90,2026-01-31,2026-02-12,2026-05-01,Reported,Dr. Pınar Çetin,Software error caused incorrect scanning protocol application.
+INC-050,CIH-071,Surescan,MRI System,Serious (Life-threatening),15,2026-01-28,2026-02-16,2026-02-12,Overdue,Dr. Mehmet Akar,Patient table vibration caused imaging artifacts.
+INC-051,CIH-075,Nalu Neurostimulation System,MRI System,Serious (Life-threatening),15,2026-03-15,2026-03-31,2026-03-30,Overdue,Kalite Müd. Zeynep Şahin,Software error caused incorrect scanning protocol application.
+INC-052,CIH-032,DePuy Synthes Pinnacle Hip,Orthopedic Implant,Non-Serious,90,2025-12-02,2026-01-17,2026-03-02,Closed,Dr. Pınar Çetin,Screw fracture detected; revision surgery planned.
+INC-053,CIH-033,Stryker Tritanium PL Cage,Orthopedic Implant,Serious (Hospitalization),30,2025-11-25,2026-01-01,2025-12-25,Overdue,Dr. Ahmet Yılmaz,Joint instability reported; implant position evaluated.
+INC-054,CIH-035,Exactech Connexion GXL Hip,Orthopedic Implant,Serious (Life-threatening),15,2026-01-22,2026-01-28,2026-02-06,Closed,Dr. Selin Arslan,Metal ion levels exceeded reference range; follow-up initiated.
+INC-055,CIH-270,Azure Xt Dr Mri Surescan Pacemaker,Pacemaker/ICD,Non-Serious,90,2025-10-25,2026-01-11,2026-01-23,Closed,Dr. Mehmet Akar,Pacing impulse not delivered; patient experienced syncope.
+INC-056,CIH-268,Petite,Pacemaker/ICD,Serious (Public Health Threat),10,2025-10-31,2025-11-05,2025-11-10,Closed,Dr. Ahmet Yılmaz,Device inhibition occurred due to electromagnetic interference.
+INC-057,CIH-266,Identity Xl Dr,Pacemaker/ICD,Serious (Hospitalization),30,2026-02-18,2026-03-16,2026-03-20,Closed,Dr. Ahmet Yılmaz,Electrode dislodgement detected; repositioning required.
+INC-058,CIH-024,GE Carescape B650,Patient Monitor,Serious (Life-threatening),15,2025-12-29,2025-12-30,2026-01-13,Closed,Dr. Pınar Çetin,Screen froze; patient data could not be monitored.
+INC-059,CIH-027,Schiller Argus Pro,Patient Monitor,Non-Serious,90,2026-01-25,2026-03-25,2026-04-25,Under Investigation,Hem. Murat Demir,SpO2 and ECG synchronization lost.
+INC-060,CIH-023,Philips IntelliVue MX450,Patient Monitor,Serious (Life-threatening),15,2026-02-01,2026-02-10,2026-02-16,Closed,Hem. Serkan Doğan,Screen froze; patient data could not be monitored.
+INC-061,CIH-247,Bililux Phototherapy Light G,Phototherapy System,Serious (Hospitalization),30,2026-04-10,2026-04-14,2026-05-10,Reported,Dr. Pınar Çetin,LED intensity reduction decreased phototherapy efficacy.
+INC-062,CIH-243,Bililux Phototherapy Light C,Phototherapy System,Non-Serious,90,2026-03-23,2026-05-11,2026-06-21,Under Investigation,Biyomed. Müh. Can Öztürk,Irradiance measurement fell below reference value.
+INC-063,CIH-249,Pharos Excimer Laser System I,Phototherapy System,Non-Serious,90,2025-12-05,2025-12-16,2026-03-05,Closed,Dr. Deniz Koç,LED intensity reduction decreased phototherapy efficacy.
+INC-064,CIH-096,Wound Vac Therapy System,Pulse Oximeter,Serious (Hospitalization),30,2025-11-04,2025-12-09,2025-12-04,Overdue,Biyomed. Müh. Can Öztürk,Device unable to produce readings during peripheral circulation disorder.
+INC-065,CIH-100,Aqua K Pad,Pulse Oximeter,Serious (Hospitalization),30,2026-01-16,2026-01-26,2026-02-15,Closed,Hem. Elif Yıldız,SpO2 reading unreliable due to motion artifact.
+INC-066,CIH-095,Interstim Ii,Pulse Oximeter,Serious (Public Health Threat),10,2026-02-15,2026-03-04,2026-02-25,Overdue,Dr. Ayşe Demir,Probe heating caused dermal irritation.
+INC-067,CIH-125,Boston Scientific Spinal Cord Stimulator,Spinal Implant,Serious (Life-threatening),15,2026-02-10,2026-02-21,2026-02-25,Closed,Kalite Müd. Zeynep Şahin,Corrosion findings detected; explantation performed.
+INC-068,CIH-128,Boston Scientific Spinal Cord System,Spinal Implant,Non-Serious,90,2026-04-10,2026-06-29,2026-07-09,Under Investigation,Hem. Serkan Doğan,Screw loosening detected; revision surgery planned.
+INC-069,CIH-127,Nevro Spinal Cord Stimulator,Spinal Implant,Serious (Hospitalization),30,2025-10-02,2025-11-08,2025-11-01,Overdue,Hem. Elif Yıldız,Screw loosening detected; revision surgery planned.
+INC-070,CIH-218,Surpass Evolve 4.0Mm X 15Mm - Pmas,Stent System,Serious (Hospitalization),30,2025-12-29,2026-01-31,2026-01-28,Overdue,Dr. Deniz Koç,Lamination defect detected in coating layer.
+INC-071,CIH-212,Synergy Ii Everolimus-Eluting Platinum Chromium Co,Stent System,Serious (Life-threatening),15,2025-10-10,2025-10-30,2025-10-25,Overdue,Dr. Ayşe Demir,Balloon catheter ruptured earlier than expected.
+INC-072,CIH-219,Relay Thoracic Stent-Graft With Plus Delivery Syst,Stent System,Serious (Life-threatening),15,2026-02-06,2026-02-23,2026-02-21,Overdue,Biyomed. Müh. Can Öztürk,Stent migration observed; additional intervention required.
+INC-073,CIH-319,Bci,Stethoscope,Serious (Hospitalization),30,2026-03-29,2026-04-21,2026-04-28,Reported,Hem. Elif Yıldız,Tube hardening after sterilization restricted range of motion.
+INC-074,CIH-316,Vela Ventilator,Stethoscope,Non-Serious,90,2025-12-08,2025-12-17,2026-03-08,Closed,Hem. Murat Demir,Diaphragm integrity compromised; auscultation quality reduced.
+INC-075,CIH-316,Vela Ventilator,Stethoscope,Serious (Life-threatening),15,2025-12-30,2025-12-31,2026-01-14,Closed,Dr. Selin Arslan,Tube hardening after sterilization restricted range of motion.
+INC-076,CIH-201,Endoscpc Cann.Drl.Bit 4.5 Strl,Surgical Drill,Serious (Public Health Threat),10,2026-01-14,2026-01-18,2026-01-24,Closed,Kalite Müd. Gül Arslan,Speed control unresponsive; tissue damage risk identified.
+INC-077,CIH-208,1.1Mm Wire Pass Drill Bit Medium,Surgical Drill,Serious (Life-threatening),15,2026-01-29,2026-02-11,2026-02-13,Closed,Dr. Ahmet Yılmaz,Speed control unresponsive; tissue damage risk identified.
+INC-078,CIH-210,Flexible Drill Shaft Ic,Surgical Drill,Non-Serious,90,2026-03-15,2026-04-22,2026-06-13,Under Investigation,Dr. Burak Şen,Drill bit fractured; fragment retained in surgical field.
+INC-079,CIH-300,3611 Lite Glove,Surgical Glove,Serious (Hospitalization),30,2026-02-19,2026-02-22,2026-03-21,Closed,Dr. Pınar Çetin,Tear occurred due to size incompatibility.
+INC-080,CIH-292,Pack Minor Lithotomy,Surgical Glove,Non-Serious,90,2025-10-05,2025-11-04,2026-01-03,Closed,Hem. Serkan Doğan,Powder content caused reaction; complaint reported.
+INC-081,CIH-296,Henry Schein,Surgical Glove,Serious (Life-threatening),15,2025-12-04,2025-12-18,2025-12-19,Closed,Dr. Emre Kaya,Tear occurred due to size incompatibility.
+INC-082,CIH-186,Endowrist,Surgical Robot,Non-Serious,90,2026-04-06,2026-04-19,2026-07-05,Reported,Dr. Ahmet Yılmaz,System stopped unexpectedly due to software error.
+INC-083,CIH-186,Endowrist,Surgical Robot,Serious (Hospitalization),30,2026-03-23,2026-04-05,2026-04-22,Reported,Hem. Murat Demir,Unexpected tremor observed during robotic arm movement.
+INC-084,CIH-181,Da Vinci Surgical System,Surgical Robot,Serious (Public Health Threat),10,2025-12-09,2025-12-22,2025-12-19,Overdue,Hem. Serkan Doğan,Vision system calibration lost; image distortion occurred.
+INC-085,CIH-152,Covidien Curved Stapler,Surgical Stapler,Serious (Hospitalization),30,2025-11-14,2025-12-18,2025-12-14,Overdue,Kalite Müd. Gül Arslan,Staple line did not fully close; anastomotic leak risk identified.
+INC-086,CIH-158,Surgical Stapler,Surgical Stapler,Non-Serious,90,2026-03-26,2026-06-16,2026-06-24,Under Investigation,Dr. Ayşe Demir,Device fired twice unexpectedly; tissue damage occurred.
+INC-087,CIH-157,Intuitive Surgical Davinci 45Mm Stapler,Surgical Stapler,Serious (Public Health Threat),10,2026-03-29,2026-04-15,2026-04-08,Overdue,Dr. Ahmet Yılmaz,Device fired twice unexpectedly; tissue damage occurred.
+INC-088,CIH-284,1Lyrtr 16Fr10Ml100% Siltmp Snp,Thermometer,Serious (Public Health Threat),10,2026-02-18,2026-02-24,2026-02-28,Closed,Dr. Burak Şen,Low reading due to infrared sensor contamination.
+INC-089,CIH-289,Mon-A-Therm,Thermometer,Serious (Life-threatening),15,2025-11-26,2025-12-13,2025-12-11,Overdue,Dr. Emre Kaya,Ambient temperature effect distorted measurement.
+INC-090,CIH-282,Pro 6000 W/Small Cradle,Thermometer,Serious (Public Health Threat),10,2025-11-06,2025-11-19,2025-11-16,Overdue,Dr. Selin Arslan,Low reading due to infrared sensor contamination.
+INC-091,CIH-338,Medpride Sterile Tongue Blade,Tongue Depressor,Serious (Hospitalization),30,2026-04-10,2026-04-22,2026-05-10,Reported,Biyomed. Müh. Can Öztürk,Burr detected on wooden surface; oral mucosal injury reported.
+INC-092,CIH-333,Sterile Tongue Blade,Tongue Depressor,Serious (Life-threatening),15,2026-01-29,2026-02-15,2026-02-13,Overdue,Hem. Murat Demir,Dimensional inconsistency detected in product.
+INC-093,CIH-223,Acuson P500 Ultrasound System,Ultrasound System,Serious (Life-threatening),15,2026-03-01,2026-03-12,2026-03-16,Closed,Dr. Burak Şen,Diagnosis delayed due to image quality degradation.
+INC-094,CIH-225,Ilab Ultrasound Imaging System,Ultrasound System,Non-Serious,90,2025-12-16,2026-01-20,2026-03-16,Closed,Dr. Ayşe Demir,Micro-crack detected in transducer sheath.
+INC-095,VEN-001,Maquet Servo-U Ventilator,Ventilator,Serious (Life-threatening),15,2026-01-29,2026-02-10,2026-02-13,Closed,Dr. Ahmet Yılmaz,Breathing circuit connection loosened; air leak occurred.
+INC-096,VEN-001,Maquet Servo-U Ventilator,Ventilator,Serious (Life-threatening),15,2026-02-26,2026-03-09,2026-03-13,Closed,Dr. Deniz Koç,Tidal volume deviation observed; clinician performed manual adjustment.
+INC-097,CIH-102,Nellcor,Wound Care System,Serious (Life-threatening),15,2025-12-24,2026-01-14,2026-01-08,Overdue,Dr. Ahmet Yılmaz,Leakage alarm triggered with delay; wound area affected.
+INC-098,CIH-102,Nellcor,Wound Care System,Serious (Life-threatening),15,2025-12-23,2026-01-08,2026-01-07,Overdue,Hem. Fatma Çelik,Leakage alarm triggered with delay; wound area affected.
+INC-099,CIH-116,O-Arm O2 Imaging System,X-Ray System,Serious (Life-threatening),15,2026-01-23,2026-02-02,2026-02-07,Closed,Kalite Müd. Gül Arslan,Digital image transfer failed.
+INC-100,CIH-112,Axiom Artis Dfc,X-Ray System,Non-Serious,90,2025-10-12,2026-01-16,2026-01-10,Overdue,Hem. Fatma Çelik,Tube current stability disrupted; image quality affected.

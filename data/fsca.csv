@@ -1,51 +1,51 @@
-fsca_id,cihaz_id,kategori,konu,mevcut_asama,asama_no,sorumlu,baslangic,bitis,durum
-FSCA-001,CIH-253,Anesthesia Machine,CO2 absoran alarmı kalibrasyonu; gecikme süresi düzeltildi,Implementation,4,Dr. Emre Kaya,2025-12-07,2026-01-09,In Progress
-FSCA-002,CIH-251,Anesthesia Machine,CO2 absoran alarmı kalibrasyonu; gecikme süresi düzeltildi,Implementation,4,Dr. Ayşe Demir,2025-12-21,2026-02-17,In Progress
-FSCA-003,CIH-324,Bandage / Wound Dressing,Yapışkan formülasyonu revizyonu; cilt uyumluluğu iyileştirildi,Closure,5,Dr. Emre Kaya,2025-12-27,2026-02-18,Closed
-FSCA-004,CIH-325,Bandage / Wound Dressing,Yapışkan formülasyonu revizyonu; cilt uyumluluğu iyileştirildi,Implementation,4,Dr. Ahmet Yılmaz,2026-01-25,2026-03-14,In Progress
-FSCA-005,CIH-055,CT Scanner,Doz modülasyonu yazılım güncellemesi; hasta maruziyeti azaltıldı,Planning,3,Dr. Emre Kaya,2026-01-10,2026-03-01,In Progress
-FSCA-006,CIH-057,CT Scanner,Doz modülasyonu yazılım güncellemesi; hasta maruziyeti azaltıldı,Implementation,4,Kalite Müd. Gül Arslan,2025-12-30,2026-02-26,In Progress
-FSCA-007,CIH-065,Cardiac Valve Prosthesis,Lot kontrolü; paravalvüler sızıntı riski değerlendirildi,Risk Assessment,2,Dr. Ahmet Yılmaz,2025-10-06,2025-11-28,In Progress
-FSCA-008,CIH-070,Cardiac Valve Prosthesis,Lot kontrolü; paravalvüler sızıntı riski değerlendirildi,Closure,5,Dr. Selin Arslan,2026-02-10,2026-02-28,Closed
-FSCA-009,CIH-082,Cochlear Implant,Pil ömrü optimizasyonu; firmware v4.1 yayınlandı,Signal Detection,1,Dr. Ahmet Yılmaz,2025-10-04,2025-11-17,Open
-FSCA-010,CIH-083,Cochlear Implant,Pil ömrü optimizasyonu; firmware v4.1 yayınlandı,Signal Detection,1,Dr. Ahmet Yılmaz,2025-11-07,2025-12-25,Open
-FSCA-011,CIH-014,Defibrillator,Şarj devresi yazılım hatası; firmware v2.3.1 güncellemesi ile giderildi,Planning,3,Kalite Müd. Zeynep Şahin,2025-10-03,2025-11-10,In Progress
-FSCA-012,CIH-011,Defibrillator,Şarj devresi yazılım hatası; firmware v2.3.1 güncellemesi ile giderildi,Planning,3,Dr. Ayşe Demir,2026-01-20,2026-03-17,In Progress
-FSCA-013,CIH-178,ECG Monitor,ST analiz algoritması v2.1 güncellendi; false alarm oranı düşürüldü,Closure,5,Biyomed. Müh. Can Öztürk,2025-12-12,2026-01-27,Closed
-FSCA-014,CIH-178,ECG Monitor,ST analiz algoritması v2.1 güncellendi; false alarm oranı düşürüldü,Implementation,4,Kalite Müd. Zeynep Şahin,2025-12-02,2025-12-16,In Progress
-FSCA-015,CIH-240,ECMO System,Akış sensörü yazılım güncellemesi; alarm eşiği düzeltildi,Planning,3,Kalite Müd. Gül Arslan,2026-01-25,2026-02-23,In Progress
-FSCA-016,CIH-233,ECMO System,Akış sensörü yazılım güncellemesi; alarm eşiği düzeltildi,Implementation,4,Kalite Müd. Zeynep Şahin,2026-01-31,2026-03-22,In Progress
-FSCA-017,CIH-169,Electrosurgical Unit,Nötr elektrot alarm sistemi kalibrasyonu yapıldı,Closure,5,Biyomed. Müh. Can Öztürk,2025-11-06,2025-11-29,Closed
-FSCA-018,CIH-164,Electrosurgical Unit,Nötr elektrot alarm sistemi kalibrasyonu yapıldı,Signal Detection,1,Dr. Ahmet Yılmaz,2025-11-20,2026-01-05,Open
-FSCA-019,CIH-276,Endoscope,Dezenfeksiyon protokolü güncellendi; biyofilm riski azaltıldı,Closure,5,Biyomed. Müh. Can Öztürk,2026-02-22,2026-03-26,Closed
-FSCA-020,CIH-280,Endoscope,Dezenfeksiyon protokolü güncellendi; biyofilm riski azaltıldı,Risk Assessment,2,Dr. Ahmet Yılmaz,2025-11-26,2025-12-10,In Progress
-FSCA-021,CIH-304,Examination Light,Termal yönetim sistemi güncellendi; ısı limiti alarmı eklendi,Risk Assessment,2,Biyomed. Müh. Can Öztürk,2026-02-03,2026-02-21,In Progress
-FSCA-022,CIH-302,Examination Light,Termal yönetim sistemi güncellendi; ısı limiti alarmı eklendi,Closure,5,Dr. Emre Kaya,2025-12-25,2026-01-09,Closed
-FSCA-023,CIH-041,Glucose Meter,Test şeridi lot kalite kontrolü güçlendirildi,Signal Detection,1,Dr. Ahmet Yılmaz,2026-01-13,2026-02-16,Open
-FSCA-024,CIH-042,Glucose Meter,Test şeridi lot kalite kontrolü güçlendirildi,Closure,5,Kalite Müd. Gül Arslan,2025-10-14,2025-12-06,Closed
-FSCA-025,CIH-135,Hemodialysis Machine,İletkenlik sensörü kalibrasyon prosedürü güncellendi,Risk Assessment,2,Kalite Müd. Gül Arslan,2025-11-27,2026-01-05,In Progress
-FSCA-026,CIH-132,Hemodialysis Machine,İletkenlik sensörü kalibrasyon prosedürü güncellendi,Implementation,4,Dr. Selin Arslan,2025-10-06,2025-11-23,In Progress
-FSCA-027,CIH-003,Infusion Pump,Flow sensörü kalibrasyon sapması; seri B cihazlar geri çağrıldı,Closure,5,Biyomed. Müh. Can Öztürk,2026-01-10,2026-03-02,Closed
-FSCA-028,CIH-005,Infusion Pump,Flow sensörü kalibrasyon sapması; seri B cihazlar geri çağrıldı,Closure,5,Biyomed. Müh. Can Öztürk,2025-11-03,2025-12-10,Closed
-FSCA-029,CIH-143,Insulin Pump,Oklüzyon alarm algoritması iyileştirildi; gecikme süresi azaltıldı,Planning,3,Dr. Selin Arslan,2025-12-12,2026-01-04,In Progress
-FSCA-030,CIH-144,Insulin Pump,Oklüzyon alarm algoritması iyileştirildi; gecikme süresi azaltıldı,Planning,3,Kalite Müd. Zeynep Şahin,2026-01-21,2026-02-22,In Progress
-FSCA-031,CIH-200,Laboratory Analyzer,Kalibrasyon prosedürü revizyonu; referans aralıkları güncellendi,Closure,5,Kalite Müd. Gül Arslan,2026-01-06,2026-01-26,Closed
-FSCA-032,CIH-079,MRI System,Gradient bobini soğutma sistemi güçlendirildi,Closure,5,Kalite Müd. Gül Arslan,2026-01-26,2026-02-13,Closed
-FSCA-033,CIH-038,Orthopedic Implant,Yüzey kaplama prosesi iyileştirildi; aşınma direnci artırıldı,Closure,5,Dr. Emre Kaya,2026-02-06,2026-03-16,Closed
-FSCA-034,CIH-269,Pacemaker/ICD,Batarya izleme algoritması güncellendi; erken uyarı iyileştirildi,Planning,3,Dr. Emre Kaya,2025-11-03,2025-12-27,In Progress
-FSCA-035,CIH-024,Patient Monitor,Alarm ses sistemi donanım revizyonu; sessiz alarm sorunu çözüldü,Closure,5,Kalite Müd. Zeynep Şahin,2025-10-15,2025-12-07,Closed
-FSCA-036,CIH-250,Phototherapy System,LED yoğunluk kontrolü revizyonu; doz doğruluğu artırıldı,Risk Assessment,2,Dr. Ahmet Yılmaz,2025-11-04,2025-11-21,In Progress
-FSCA-037,CIH-093,Pulse Oximeter,Hareket artefaktı filtresi güncellendi; ölçüm güvenilirliği artırıldı,Closure,5,Kalite Müd. Zeynep Şahin,2026-02-28,2026-04-08,Closed
-FSCA-038,CIH-126,Spinal Implant,Vida kilitleme mekanizması güncellendi; gevşeme riski azaltıldı,Implementation,4,Dr. Ahmet Yılmaz,2025-11-30,2026-01-24,In Progress
-FSCA-039,CIH-214,Stent System,Lot geri çağrısı; kaplama bütünlüğü sorunu giderildi,Planning,3,Kalite Müd. Gül Arslan,2026-01-29,2026-02-13,In Progress
-FSCA-040,CIH-315,Stethoscope,Diyafram bütünlük testi prosedürü güncellendi,Planning,3,Dr. Ayşe Demir,2026-02-08,2026-03-08,In Progress
-FSCA-041,CIH-202,Surgical Drill,Soğutma sistemi modifikasyonu; termal limit alarmı eklendi,Signal Detection,1,Dr. Emre Kaya,2026-02-12,2026-03-19,Open
-FSCA-042,CIH-293,Surgical Glove,Pinhol test protokolü güçlendirildi; kalite kontrol adımları eklendi,Risk Assessment,2,Dr. Emre Kaya,2025-11-28,2025-12-23,In Progress
-FSCA-043,CIH-187,Surgical Robot,Robot kol yazılımı v3.2 kritik güncelleme; titreşim kontrolü iyileştirildi,Implementation,4,Dr. Emre Kaya,2025-12-03,2026-01-08,In Progress
-FSCA-044,CIH-156,Surgical Stapler,Zımba magazini tasarım değişikliği; yanlış ateşleme önlendi,Closure,5,Dr. Emre Kaya,2026-01-03,2026-01-30,Closed
-FSCA-045,CIH-286,Thermometer,Kalibrasyon prosedürü revizyonu; ölçüm doğruluğu artırıldı,Signal Detection,1,Biyomed. Müh. Can Öztürk,2025-12-09,2026-01-10,Open
-FSCA-046,CIH-338,Tongue Depressor,Tedarikçi kalite denetimi yapıldı; yüzey kalitesi standardı yükseltildi,Implementation,4,Kalite Müd. Gül Arslan,2025-12-03,2026-01-28,In Progress
-FSCA-047,CIH-226,Ultrasound System,Prob ısınma sorunu; termal yönetim yazılımı güncellendi,Implementation,4,Kalite Müd. Gül Arslan,2025-10-24,2025-11-21,In Progress
-FSCA-048,VEN-006,Ventilator,PEEP kontrol algoritması güncellendi; sapma toleransı daraltıldı,Planning,3,Dr. Selin Arslan,2026-02-05,2026-03-26,In Progress
-FSCA-049,CIH-108,Wound Care System,Basınç sensörü kalibrasyonu; alarm doğruluğu artırıldı,Planning,3,Dr. Ahmet Yılmaz,2026-02-12,2026-02-27,In Progress
-FSCA-050,CIH-119,X-Ray System,Otomatik doz kontrol yazılımı güncellendi,Closure,5,Kalite Müd. Gül Arslan,2026-02-28,2026-04-06,Closed
+fsca_id,cihaz_id,kategori,konu,mevcut_asama,asama_no,sorumlu,baslangic,bitis,durum,fsn_deadline
+FSCA-001,CIH-253,Anesthesia Machine,CO2 absorber alarm calibration; response delay corrected,Implementation,4,Quality Manager E. Kaya,2025-12-07,2026-07-11,Active,2026-05-22
+FSCA-002,CIH-251,Anesthesia Machine,CO2 absorber alarm calibration; response delay corrected,Implementation,4,Biomedical Eng. A. Yilmaz,2025-12-21,2026-06-13,In Progress,2026-05-11
+FSCA-003,CIH-324,Bandage / Wound Dressing,Adhesive formula revision; skin compatibility improved,Closure,5,Quality Manager B. Demir,2025-12-27,2026-03-08,Closed,2026-02-06
+FSCA-004,CIH-325,Bandage / Wound Dressing,Adhesive formula revision; skin compatibility improved,Implementation,4,Biomedical Eng. G. Arslan,2026-01-25,2026-04-06,In Progress,2026-03-30
+FSCA-005,CIH-055,CT Scanner,Dose modulation software update; patient exposure reduced,Planning,3,Biomedical Eng. G. Arslan,2026-01-10,2026-07-20,In Progress,2026-06-12
+FSCA-006,CIH-057,CT Scanner,Dose modulation software update; patient exposure reduced,Implementation,4,Risk Manager S. Arslan,2025-12-30,2026-07-15,In Progress,2026-06-08
+FSCA-007,CIH-065,Cardiac Valve Prosthesis,Lot inspection; paravalvular leakage risk assessed,Risk Assessment,2,Quality Manager E. Kaya,2025-10-06,2026-04-23,In Progress,2026-04-16
+FSCA-008,CIH-070,Cardiac Valve Prosthesis,Lot inspection; paravalvular leakage risk assessed,Closure,5,Quality Manager E. Kaya,2026-02-10,2026-03-12,Closed,2026-02-06
+FSCA-009,CIH-082,Cochlear Implant,Battery life optimization; firmware v4.1 released,Signal Detection,1,Biomedical Eng. M. Celik,2025-10-04,2026-07-17,Open,2026-05-25
+FSCA-010,CIH-083,Cochlear Implant,Battery life optimization; firmware v4.1 released,Signal Detection,1,Biomedical Eng. A. Yilmaz,2025-11-07,2026-06-23,Open,2026-05-21
+FSCA-011,CIH-014,Defibrillator,Charging circuit software bug; resolved via firmware v2.3.1,Planning,3,Biomedical Eng. A. Yilmaz,2025-10-03,2026-04-26,In Progress,2026-04-19
+FSCA-012,CIH-011,Defibrillator,Charging circuit software bug; resolved via firmware v2.3.1,Planning,3,Quality Manager E. Kaya,2026-01-20,2026-09-07,In Progress,2026-07-16
+FSCA-013,CIH-178,ECG Monitor,CO2 absorber alarm calibration; response delay corrected,Closure,5,Biomedical Eng. G. Arslan,2025-12-12,2026-04-25,Closed,2026-02-26
+FSCA-014,CIH-178,ECG Monitor,CO2 absorber alarm calibration; response delay corrected,Implementation,4,Biomedical Eng. G. Arslan,2025-12-02,2026-07-05,In Progress,2026-05-19
+FSCA-015,CIH-240,ECMO System,CO2 absorber alarm calibration; response delay corrected,Planning,3,Biomedical Eng. A. Yilmaz,2026-01-25,2026-04-18,In Progress,2026-04-11
+FSCA-016,CIH-233,ECMO System,CO2 absorber alarm calibration; response delay corrected,Implementation,4,Biomedical Eng. G. Arslan,2026-01-31,2026-08-18,In Progress,2026-07-01
+FSCA-017,CIH-169,Electrosurgical Unit,CO2 absorber alarm calibration; response delay corrected,Closure,5,Biomedical Eng. M. Celik,2025-11-06,2026-04-24,Closed,2026-03-12
+FSCA-018,CIH-164,Electrosurgical Unit,CO2 absorber alarm calibration; response delay corrected,Signal Detection,1,Biomedical Eng. G. Arslan,2025-11-20,2026-06-12,Open,2026-05-12
+FSCA-019,CIH-276,Endoscope,Dezenfeksiyon protokolü güncellendi; biyofilm riski azaltıldı,Closure,5,Quality Manager T. Ozturk,2026-02-22,2026-03-23,Closed,2026-02-21
+FSCA-020,CIH-280,Endoscope,Dezenfeksiyon protokolü güncellendi; biyofilm riski azaltıldı,Risk Assessment,2,Quality Manager B. Demir,2025-11-26,2026-04-19,In Progress,2026-04-12
+FSCA-021,CIH-304,Examination Light,CO2 absorber alarm calibration; response delay corrected,Risk Assessment,2,Biomedical Eng. A. Yilmaz,2026-02-03,2026-06-24,In Progress,2026-05-19
+FSCA-022,CIH-302,Examination Light,CO2 absorber alarm calibration; response delay corrected,Closure,5,Risk Manager S. Arslan,2025-12-25,2026-04-19,Closed,2026-03-13
+FSCA-023,CIH-041,Glucose Meter,Test şeridi lot kalite kontrolü güçlendirildi,Signal Detection,1,Biomedical Eng. M. Celik,2026-01-13,2026-07-20,Open,2026-06-04
+FSCA-024,CIH-042,Glucose Meter,Test şeridi lot kalite kontrolü güçlendirildi,Closure,5,Risk Manager C. Sahin,2025-10-14,2026-04-17,Closed,2026-02-27
+FSCA-025,CIH-135,Hemodialysis Machine,İletkenlik sensörü kalibrasyon prosedürü güncellendi,Risk Assessment,2,Quality Manager B. Demir,2025-11-27,2026-04-19,In Progress,2026-04-12
+FSCA-026,CIH-132,Hemodialysis Machine,İletkenlik sensörü kalibrasyon prosedürü güncellendi,Implementation,4,Risk Manager S. Arslan,2025-10-06,2026-08-27,In Progress,2026-07-11
+FSCA-027,CIH-003,Infusion Pump,Flow sensörü kalibrasyon sapması; seri B cihazlar geri çağrıldı,Closure,5,Biomedical Eng. G. Arslan,2026-01-10,2026-03-24,Closed,2026-02-16
+FSCA-028,CIH-005,Infusion Pump,Flow sensörü kalibrasyon sapması; seri B cihazlar geri çağrıldı,Closure,5,Risk Manager C. Sahin,2025-11-03,2026-04-29,Closed,2026-03-08
+FSCA-029,CIH-143,Insulin Pump,CO2 absorber alarm calibration; response delay corrected,Planning,3,Quality Manager E. Kaya,2025-12-12,2026-06-30,In Progress,2026-05-11
+FSCA-030,CIH-144,Insulin Pump,CO2 absorber alarm calibration; response delay corrected,Planning,3,Quality Manager E. Kaya,2026-01-21,2026-04-22,In Progress,2026-04-15
+FSCA-031,CIH-200,Laboratory Analyzer,Adhesive formula revision; skin compatibility improved,Closure,5,Biomedical Eng. M. Celik,2026-01-06,2026-03-28,Closed,2026-02-09
+FSCA-032,CIH-079,MRI System,Gradient bobini soğutma sistemi güçlendirildi,Closure,5,Quality Manager E. Kaya,2026-01-26,2026-04-10,Closed,2026-02-26
+FSCA-033,CIH-038,Orthopedic Implant,Yüzey kaplama prosesi iyileştirildi; aşınma direnci artırıldı,Closure,5,Risk Manager C. Sahin,2026-02-06,2026-04-10,Closed,2026-03-04
+FSCA-034,CIH-269,Pacemaker/ICD,Batarya izleme algoritması güncellendi; erken uyarı iyileştirildi,Planning,3,Risk Manager C. Sahin,2025-11-03,2026-07-16,In Progress,2026-06-02
+FSCA-035,CIH-024,Patient Monitor,CO2 absorber alarm calibration; response delay corrected,Closure,5,Quality Manager B. Demir,2025-10-15,2026-05-03,Closed,2026-03-16
+FSCA-036,CIH-250,Phototherapy System,Adhesive formula revision; skin compatibility improved,Risk Assessment,2,Biomedical Eng. A. Yilmaz,2025-11-04,2026-08-23,In Progress,2026-07-16
+FSCA-037,CIH-093,Pulse Oximeter,Hareket artefaktı filtresi güncellendi; ölçüm güvenilirliği artırıldı,Closure,5,Quality Manager T. Ozturk,2026-02-28,2026-04-01,Closed,2026-02-05
+FSCA-038,CIH-126,Spinal Implant,Vida kilitleme mekanizması güncellendi; gevşeme riski azaltıldı,Implementation,4,Quality Manager E. Kaya,2025-11-30,2026-04-23,In Progress,2026-04-16
+FSCA-039,CIH-214,Stent System,Lot inspection; paravalvular leakage risk assessed,Planning,3,Biomedical Eng. M. Celik,2026-01-29,2026-07-05,In Progress,2026-06-05
+FSCA-040,CIH-315,Stethoscope,Diyafram bütünlük testi prosedürü güncellendi,Planning,3,Quality Manager E. Kaya,2026-02-08,2026-08-27,In Progress,2026-07-04
+FSCA-041,CIH-202,Surgical Drill,CO2 absorber alarm calibration; response delay corrected,Signal Detection,1,Quality Manager B. Demir,2026-02-12,2026-04-09,Open,2026-04-02
+FSCA-042,CIH-293,Surgical Glove,Pinhol test protokolü güçlendirildi; kalite kontrol adımları eklendi,Risk Assessment,2,Risk Manager C. Sahin,2025-11-28,2026-07-17,In Progress,2026-06-12
+FSCA-043,CIH-187,Surgical Robot,Robot kol yazılımı v3.2 kritik güncelleme; titreşim kontrolü iyileştirildi,Implementation,4,Biomedical Eng. G. Arslan,2025-12-03,2026-06-29,In Progress,2026-05-08
+FSCA-044,CIH-156,Surgical Stapler,Zımba magazini tasarım değişikliği; yanlış ateşleme önlendi,Closure,5,Quality Manager E. Kaya,2026-01-03,2026-03-14,Closed,2026-01-30
+FSCA-045,CIH-286,Thermometer,Adhesive formula revision; skin compatibility improved,Signal Detection,1,Biomedical Eng. A. Yilmaz,2025-12-09,2026-04-24,Open,2026-04-17
+FSCA-046,CIH-338,Tongue Depressor,Tedarikçi kalite denetimi yapıldı; yüzey kalitesi standardı yükseltildi,Implementation,4,Biomedical Eng. G. Arslan,2025-12-03,2026-07-05,In Progress,2026-05-28
+FSCA-047,CIH-226,Ultrasound System,Prob ısınma sorunu; termal yönetim yazılımı güncellendi,Implementation,4,Quality Manager B. Demir,2025-10-24,2026-08-04,In Progress,2026-07-01
+FSCA-048,VEN-006,Ventilator,PEEP kontrol algoritması güncellendi; sapma toleransı daraltıldı,Planning,3,Quality Manager E. Kaya,2026-02-05,2026-04-08,In Progress,2026-04-01
+FSCA-049,CIH-108,Wound Care System,CO2 absorber alarm calibration; response delay corrected,Planning,3,Biomedical Eng. G. Arslan,2026-02-12,2026-08-11,In Progress,2026-06-12
+FSCA-050,CIH-119,X-Ray System,Otomatik doz kontrol yazılımı güncellendi,Closure,5,Quality Manager E. Kaya,2026-02-28,2026-05-11,Closed,2026-03-18

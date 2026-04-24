@@ -2,6 +2,7 @@ import streamlit as st
 from modules import m0_dashboard
 from modules import m1_udi
 from modules import m2_incident
+from modules import m3_fsca
 
 st.set_page_config(
     page_title="MDR Compliance Dashboard",
@@ -102,6 +103,8 @@ elif selection == "M1 - UDI Device Tracking":
     m1_udi.render()
 elif selection == "M2 - Incident Reporting":
     m2_incident.render()
+elif selection == "M3 - FSCA Panel":
+    m3_fsca.show()
 else:
     st.title(selection)
     st.info("This module is under construction.")
