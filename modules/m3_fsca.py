@@ -327,10 +327,9 @@ def show():
         st.caption(f"Showing {len(filtered)} of {len(df)} FSCA records")
 
         display = filtered[[
-            "fsca_id", "Device", "konu", "mevcut_asama", "sorumlu", "durum", "FSN Deadline", "Target Closure", "Days Active"
+            "fsca_id", "Device", "mevcut_asama", "sorumlu", "durum", "FSN Deadline", "Target Closure", "Days Active"
         ]].rename(columns={
             "fsca_id":      "FSCA ID",
-            "konu":         "Topic",
             "mevcut_asama": "Stage",
             "sorumlu":      "Hospital Coordinator",
             "durum":        "Status",
@@ -530,48 +529,110 @@ def show():
         st.markdown("---")
         st.markdown("#### Add New FSCA Record")
 
+        # Build device options: name → cihaz_id mapping
+        OTHER_KEY = "Other (enter manually)"
+        dev_name_to_id = dict(zip(dev_df["isim"], dev_df["cihaz_id"])) if "isim" in dev_df.columns else {}
+        device_display_options = [OTHER_KEY] + list(dev_name_to_id.keys())
+
+        def mdr_field_error(msg):
+            st.markdown(
+                f"<div style='color:#f87171;font-size:12px;border-left:3px solid #f87171;"
+                f"padding:6px 10px;background:#1e0a0a;border-radius:4px;margin-bottom:8px;'>"
+                f"{msg}</div>",
+                unsafe_allow_html=True,
+            )
+
+        # Device selection outside form so manual entry field can be shown conditionally
+        new_device_sel = st.selectbox("Device *", device_display_options, key="new_fsca_device_sel")
+        new_device_manual = ""
+        if new_device_sel == OTHER_KEY:
+            new_device_manual = st.text_input(
+                "Device Name (manual entry) *",
+                placeholder="Enter device name...",
+                key="new_fsca_device_manual",
+            )
+
         with st.form("new_fsca_form"):
             col_n1, col_n2 = st.columns(2)
             with col_n1:
-                new_fsca_id = st.text_input("FSCA ID *", placeholder="e.g. FSCA-051")
-                new_device  = st.selectbox("Device *", dev_df["cihaz_id"].tolist())
-                new_stage_n = st.selectbox("Initial Stage *", STAGES)
+                new_fsca_id     = st.text_input("FSCA ID *", placeholder="e.g. FSCA-051")
+                new_stage_n     = st.selectbox("Initial Stage *", STAGES)
+                new_topic       = st.text_area(
+                    "Topic / Signal Description *",
+                    placeholder="Describe the safety signal or corrective action reason...",
+                    height=100,
+                )
             with col_n2:
-                new_resp   = st.text_input("Hospital Coordinator *", placeholder="e.g. Quality Manager")
-                new_s_date = st.date_input("FSCA Initiation Date *", value=date.today())
-                new_fsn    = st.date_input("FSN Implementation Deadline *", value=date.today() + timedelta(days=30))
-                new_e_date = st.date_input("Target Closure Date *", value=date.today() + timedelta(days=60))
+                new_resp    = st.text_input("Hospital Coordinator *", placeholder="e.g. Quality Manager E. Kaya")
+                new_udi     = st.text_input("UDI Code *", placeholder="e.g. (01)04046699381147(21)SN-IP-001")
+                new_s_date  = st.date_input("FSCA Initiation Date *", value=date.today())
+                new_fsn     = st.date_input("FSN Implementation Deadline *", value=date.today() + timedelta(days=30))
+                new_e_date  = st.date_input("Target Closure Date *", value=date.today() + timedelta(days=60))
+
             add_submitted = st.form_submit_button("Add FSCA Record", use_container_width=True)
 
         if add_submitted:
             errs = []
+
             if not new_fsca_id.strip():
-                errs.append("FSCA ID is required. (Art. 87 — each FSCA must have a unique identifier)")
-            if new_fsca_id.strip() in df["fsca_id"].values:
-                errs.append("This FSCA ID already exists.")
+                errs.append(("FSCA ID is required.", "EU MDR Art. 87 — each FSCA must carry a unique identifier traceable to the manufacturer's corrective action."))
+            elif new_fsca_id.strip() in df["fsca_id"].values:
+                errs.append(("This FSCA ID already exists in the system.", "EU MDR Art. 87 — FSCA identifiers must be unique to prevent traceability conflicts."))
+
+            if new_device_sel == OTHER_KEY and not new_device_manual.strip():
+                errs.append(("Device name is required.", "EU MDR Art. 2(65) — a serious incident or corrective action must include unambiguous device identification."))
+
+            if not new_udi.strip():
+                errs.append(("UDI Code is required.", "EU MDR Art. 27 — the Unique Device Identifier is mandatory for device traceability throughout the FSCA lifecycle."))
+
+            if not new_topic.strip():
+                errs.append(("Topic / Signal Description is required.", "EU MDR Art. 83 — the PMS system must document the safety signal or risk that triggered the FSCA."))
+
             if not new_resp.strip():
-                errs.append("Hospital Coordinator is required.")
+                errs.append(("Hospital Coordinator is required.", "EU MDR Art. 87(1) — a responsible person must be designated for FSCA implementation tracking on the hospital side."))
+
             if new_fsn < new_s_date:
-                errs.append("FSN Implementation Deadline must be after initiation date.")
+                errs.append(("FSN Implementation Deadline must be after the initiation date.", "EU MDR Art. 87 — the Field Safety Notice must be issued after the FSCA is initiated."))
+
             if new_e_date < new_fsn:
-                errs.append("Target Closure Date must be after FSN Implementation Deadline.")
+                errs.append(("Target Closure Date must be after FSN Implementation Deadline.", "EU MDR Art. 89 — corrective actions must be completed after the FSN has been distributed."))
+
             if errs:
-                for e in errs:
-                    st.error(e)
+                for title, ref in errs:
+                    st.markdown(
+                        f"<div style='color:#f87171;font-size:13px;border-left:3px solid #f87171;"
+                        f"padding:8px 12px;background:#1e0a0a;border-radius:4px;margin-bottom:8px;'>"
+                        f"<strong>{title}</strong><br/>"
+                        f"<span style='font-size:11px;color:#fca5a5;'>{ref}</span></div>",
+                        unsafe_allow_html=True,
+                    )
             else:
                 df_existing = load_fsca()
                 auto_status = "Closed" if new_stage_n == "Closure" else "Active"
+
+                if new_device_sel == OTHER_KEY:
+                    final_device_id   = new_device_manual.strip()
+                    final_device_name = new_device_manual.strip()
+                else:
+                    final_device_id   = dev_name_to_id.get(new_device_sel, new_device_sel)
+                    final_device_name = new_device_sel
+
                 new_row = {
                     "fsca_id":      new_fsca_id.strip(),
-                    "cihaz_id":     new_device,
+                    "cihaz_id":     final_device_id,
+                    "konu":         new_topic.strip(),
                     "mevcut_asama": new_stage_n,
                     "sorumlu":      new_resp.strip(),
                     "baslangic":    pd.Timestamp(new_s_date),
                     "fsn_deadline": pd.Timestamp(new_fsn),
                     "bitis":        pd.Timestamp(new_e_date),
                     "durum":        auto_status,
+                    "udi_kodu":     new_udi.strip(),
                 }
                 df_existing = pd.concat([df_existing, pd.DataFrame([new_row])], ignore_index=True)
                 save_fsca(df_existing)
-                st.success(f"New FSCA {new_fsca_id.strip()} added at stage {new_stage_n} — Art. 83-87 workflow initiated.")
+                st.success(
+                    f"New FSCA {new_fsca_id.strip()} added for '{final_device_name}' "
+                    f"at stage {new_stage_n} — Art. 83-87 workflow initiated."
+                )
                 st.rerun()

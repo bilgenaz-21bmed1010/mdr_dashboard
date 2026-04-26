@@ -702,7 +702,7 @@ def render():
             if not lot_number.strip():
                 mdr_warning(MDR_WARNINGS["lot_number"])
 
-            form_status = st.selectbox("Initial Status", options=["Open", "Under Investigation", "Closed"], key="form_status")
+            form_status = st.selectbox("Initial Status", options=["Open", "Under Investigation", "Reported", "Closed"], key="form_status")
 
         # ── New Device fields ──────────────────────────────────────────
         new_device_name = ""
