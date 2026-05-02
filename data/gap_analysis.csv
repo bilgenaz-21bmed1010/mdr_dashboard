@@ -1,0 +1,22 @@
+senaryo,mdr_maddesi,gap_tipi,ciddiyet_puani,aciklama
+adverse_event,Art. 87,Incident Reporting Channel,4,Unstructured non-standard reporting channels; no MIR template for hospitals; inconsistent formats across Member States
+adverse_event,Art. 90-91,FSCA Acknowledgement Loop,1,Indirect impact; FSCA loop not primary concern in adverse event reporting scenario
+adverse_event,Art. 27,UDI Point-of-Care Integration,2,Contributing gap; UDI needed to link incident to specific device lot but not the primary workflow gap
+adverse_event,Annex XIV,PMCF Data Contribution,1,Indirect impact; PMCF data not directly implicated in adverse event reporting workflow
+adverse_event,Art. 83-84,PMS Data Intake Formalisation,2,Contributing gap; incident reports feed PMS system but formalisation gap is secondary here
+adverse_event,Art. 89,Transparency / Feedback,4,Hospitals receive no feedback on RCA outcomes or corrective actions; discourages future reporting
+adverse_event,Art. 92,EUDAMED Operationalisation,2,Contributing gap; EUDAMED delays affect MIR submission and cross-border vigilance coordination
+fsca,Art. 87,Incident Reporting Channel,1,Indirect impact; reporting channel gap is secondary in FSCA-initiated workflows
+fsca,Art. 90-91,FSCA Acknowledgement Loop,4,CRITICAL: No mandatory acknowledgement mechanism defined in MDR; FSCAs may not be fully implemented; patient safety risk
+fsca,Art. 27,UDI Point-of-Care Integration,4,CRITICAL: Low UDI integration rates prevent rapid identification of affected devices for corrective action
+fsca,Annex XIV,PMCF Data Contribution,1,Indirect impact; PMCF data contribution not directly implicated in FSCA workflow
+fsca,Art. 83-84,PMS Data Intake Formalisation,1,Indirect impact; PMS formalisation is upstream issue; FSCA is a downstream corrective process
+fsca,Art. 89,Transparency / Feedback,2,Contributing gap; manufacturer cannot verify FSCA completion; limited feedback from hospital to manufacturer
+fsca,Art. 92,EUDAMED Operationalisation,2,Contributing gap; EUDAMED partial functionality delays CA notification and FSCA closure verification
+pms_pmcf,Art. 87,Incident Reporting Channel,2,Contributing gap; incident reports are one PMS data source but not the sole channel
+pms_pmcf,Art. 90-91,FSCA Acknowledgement Loop,1,Indirect impact; acknowledgement loop is downstream of PMS signal detection
+pms_pmcf,Art. 27,UDI Point-of-Care Integration,4,CRITICAL: Low UDI capture rates prevent linking device performance data to specific lots; impairs entire PMS surveillance
+pms_pmcf,Annex XIV,PMCF Data Contribution,4,CRITICAL: No formalised PMCF participation framework; voluntary and fragmented; insufficient real-world clinical evidence
+pms_pmcf,Art. 83-84,PMS Data Intake Formalisation,4,CRITICAL: Hospitals not recognised as active PMS stakeholders; informal fragmented channels; manufacturers cannot fulfil Art. 86 PSUR obligations
+pms_pmcf,Art. 89,Transparency / Feedback,4,CRITICAL: No access to PSUR outputs; no feedback loop; discourages reporting; erodes stakeholder trust
+pms_pmcf,Art. 92,EUDAMED Operationalisation,4,CRITICAL: Central platform not yet fully operational; fragmented data systems; hospitals have limited access to device safety information
