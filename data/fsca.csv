@@ -1,5 +1,5 @@
 fsca_id,cihaz_id,kategori,konu,mevcut_asama,asama_no,sorumlu,baslangic,bitis,durum,fsn_deadline
-FSCA-001,CIH-253,Anesthesia Machine,CO2 absorber alarm calibration; response delay corrected,Planning,4,Quality Manager E. Kaya,2025-12-07,2026-07-11,Active,2026-05-22
+FSCA-001,CIH-253,Anesthesia Machine,CO2 absorber alarm calibration; response delay corrected,Risk Assessment,4,Quality Manager E. Kaya,2025-12-07,2026-07-11,Active,2026-05-22
 FSCA-002,CIH-251,Anesthesia Machine,CO2 absorber alarm calibration; response delay corrected,Implementation,4,Biomedical Eng. A. Yilmaz,2025-12-21,2026-06-13,In Progress,2026-05-11
 FSCA-003,CIH-324,Bandage / Wound Dressing,Adhesive formula revision; skin compatibility improved,Closure,5,Quality Manager B. Demir,2025-12-27,2026-03-08,Closed,2026-02-06
 FSCA-004,CIH-325,Bandage / Wound Dressing,Adhesive formula revision; skin compatibility improved,Implementation,4,Biomedical Eng. G. Arslan,2026-01-25,2026-04-06,In Progress,2026-03-30

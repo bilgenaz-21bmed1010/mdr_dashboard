@@ -3,6 +3,10 @@ from modules import m0_dashboard
 from modules import m1_udi
 from modules import m2_incident
 from modules import m3_fsca
+from modules import m4_gap
+from modules import m5_psur
+from modules import m6_trend
+from modules import m7_pms
 
 st.set_page_config(
     page_title="MDR Compliance Dashboard",
@@ -105,6 +109,14 @@ elif selection == "M2 - Incident Reporting":
     m2_incident.render()
 elif selection == "M3 - FSCA Panel":
     m3_fsca.show()
+elif selection == "M4 - Gap Analysis":
+    m4_gap.show()
+elif selection == "M5 - PSUR Checklist":
+    m5_psur.show()
+elif selection == "M6 - Trend Analysis":
+    m6_trend.show()
+elif selection == "M7 - PMS Method Matrix":
+    m7_pms.show()
 else:
     st.title(selection)
     st.info("This module is under construction.")

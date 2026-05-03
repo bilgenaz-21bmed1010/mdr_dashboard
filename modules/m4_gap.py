@@ -105,10 +105,11 @@ def show():
     total   = len(df["gap_tipi"].unique())
     worst_k = df.groupby("senaryo")["ciddiyet_puani"].sum().idxmax()
     worst_s = SCENARIOS[worst_k]["short"]
+    worst_short = {"adverse_event": "S1 — Adverse Event", "fsca": "S2 — FSCA", "pms_pmcf": "S3 — PMS/PMCF"}.get(worst_k, worst_s)
 
     c1, c2 = st.columns(2)
-    c1.metric("Gap Areas Identified", total,   help="Distinct compliance gap areas from WP3")
-    c2.metric("Most Affected Scenario", worst_s)
+    c1.metric("Gap Areas Identified",  total,       help="Distinct compliance gap areas from WP3")
+    c2.metric("Most Affected Scenario", worst_short, help=worst_s)
 
     st.markdown("---")
 
